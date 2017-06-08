@@ -1,0 +1,313 @@
+2:./ad/arp/arp.html:58:						<input type="text" name="arp_cast_interval" id="arp_cast_interval" value="<%arp_cast_interval%>" class="small" /> 分钟<font color="#999999">(5～3600)</font>
+26:./ad/ddos_profile/add.html:19:                &nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+121:./ad/httpheader_rewrite/add.html:203:				<textarea id="rewrite_url_content" name="rewrite_url_content" type="text" value="" class="fin12" ></textarea><span id="rewrite_url_content_msg" class="htips"> (1-<span id="rewrite_url_content_len"></span> characters></span>个字符)</span>
+137:./ad/node_monitor/database.html:141:				&nbsp;&nbsp;<span id="send_string_msg" class="htips">（发送内容的长度限制为0～<%max_send_len%>个字符，支持select(所有类型)、show(仅mysql类型)、update(仅mssql类型)语句）</span><!--注意限制？-->	
+163:./ad/node_monitor/externApp.html:20:					   &nbsp;&nbsp;<span id="monitor_name_msg" class="htips">(长度限制为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+209:./ad/node_monitor/https.html:20:					   &nbsp;&nbsp;<span id="monitor_name_msg" class="htips">(长度限制为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+234:./ad/node_monitor/ldap.html:100:				&nbsp;&nbsp;<span id="upwd_msg" class="htips">(长度限制为0～<%max_name%>字符)</span>
+249:./ad/node_monitor/ldap.html:20:					   &nbsp;&nbsp;<span id="monitor_name_msg" class="htips">(长度限制为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+268:./ad/node_monitor/ldap.html:92:				&nbsp;&nbsp;<span id="uname_msg" class="htips">(长度限制为0～<%max_name%>字符)</span>
+290:./ad/node_monitor/tcps.html:20:					   &nbsp;&nbsp;<span id="monitor_name_msg" class="htips">(长度限制为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+322:./ad/node_pool/add.html:226:				&nbsp;&nbsp;<span id="conn_queue_max_length_msg" class="htips">(队列长度取值范围为1~100000<span id="AD_TCP_CONNECTION_POOL_PER_VS_0"></span>)</span>
+331:./ad/node_pool/add.html:727:    (obj.length > 0) ?  $("tr.intell").show() :　$("tr.intell").hide();　
+333:./ad/node_pool/list.html:153:			var but_dom = $("<span style='margin-left:20px;' class='span_but'>【<span style='text-decoration:underline'>查看节点</span>】</span>");
+339:./ad/node_pool/node_add.html:484:    (obj.length > 0) ?  $("tr.intell").show() :　$("tr.intell").hide();　
+349:./ad/persist/cookie.html:57:        Domain：<input type="text" id="cdomain" name="cdomain" class="fin6" value="<%cdomain%>" />
+350:./ad/persist/cookie.html:65:				&nbsp;&nbsp;<span id="cpath_msg" class="htips">(请填写Cookie作用路径，长度限制为1～<%path_length%>字符)</span>
+365:./ad/persist/httpheader.html:487:				$("#request_keyword_msg").text("(仅限英文字母、数字、中划线、下划线，长度限制为0～<%max_request_key_word_len%>个字符。)");
+366:./ad/persist/httpheader.html:491:				$("#request_keyword_msg").text("(长度限制为0～<%max_request_key_word_len%>个字符。)");
+367:./ad/persist/httpheader.html:497:				$("#reply_keyword_msg").text("(仅限英文字母、数字、中划线、下划线，长度限制为0～<%max_reply_key_word_len%>个字符。)");
+369:./ad/persist/httpheader.html:501:				$("#reply_keyword_msg").text("(长度限制为0～<%max_reply_key_word_len%>个字符。)");
+396:./ad/persist/sip.html:21:					   &nbsp;&nbsp;<span id="name_msg" class="htips">(长度限制为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+421:./ad/qos_profile/add.html:116:								<td style="width:255px">&nbsp;统计时间&nbsp;<input id="stat_time" value="60"style="width:64px" type="text"/>&nbsp;秒<span id="stat_time_msg" class="htips">(取值范围:1-36000)</span></td><td id="limit_value_td" style="width:250px;">请求阈值&nbsp;<input id="limit_value" value="1000" style="width:55px" type="text"/><span id="limit_value_msg" class="htips">(取值范围:1-1000000)</td>
+431:./ad/qos_profile/add.html:140:					<td style="width:350px;vertical-align:bottom"><button id="ddos_uri_add_button"  type="button" style="width:43px; height:20px; line-height:18px; color:#3366CC; border:1px solid #507095;  repeat-x; cursor:pointer; font-size:10px;">添加</button><span id="ddos_url_msg" class="htips"> （输入URI长度限制为1-255，支持*和？通配符）</span></td>
+441:./ad/qos_profile/add.html:19:                &nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+536:./ad/snat/snat_unit_add.html:141:			<td colspan="2" class="obj_title">源地址转换关联组<span style="color:#36c;font-weight:normal;padding-left:20px">温馨提示:该图表示本源地址转换关联组中，源地址转换规则之间的关联关系。</span></td>
+545:./ad/snat/snat_unit_add.html:243:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+557:./ad/snat/snat_unit_add.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+562:./ad/snat/snat_unit.html:118:<span style="font-weight:bold;">名称：</span>源地址转换规则的名称，用来标识一条源地址转换规则。</td>
+563:./ad/snat/snat_unit.html:123:<span style="font-weight:bold;">状态：</span>启用时，该源地址转换规则有效；禁用时，该源地址转换规则无效。</td>
+564:./ad/snat/snat_unit.html:128:<span style="font-weight:bold;">出接口：</span>匹配源地址转换规则的数据包经过设备出去时使用的网络接口。</td>
+565:./ad/snat/snat_unit.html:133:<span style="font-weight:bold;">代理网段：</span>用于判断该访问的源IP地址是否匹配这条源地址转换规则。</td>
+566:./ad/snat/snat_unit.html:138:<span style="font-weight:bold;">目标IP地址转换条件：</span>用于判断该访问的目的IP地址是否匹配这条源地址转换规则。</td>
+567:./ad/snat/snat_unit.html:143:<span style="font-weight:bold;">协议转换条件：</span>用于判断该访问所使用的协议是否匹配这条源地址转换规则。</td>
+568:./ad/snat/snat_unit.html:148:<span style="font-weight:bold;">转换源IP地址为：</span>当访问匹配源地址转换规则时，源IP将转换为已配置的源IP转换地址。</td>
+569:./ad/snat/snat_unit.html:153:<span style="font-weight:bold;">转换策略:</span>源ip+目的ip哈希：转换时会综合考虑源ip和目的ip，比如：源ip相同但目的ip不同，转换后ip可能会不同；源ip哈希：转换时只考虑源ip，比如：相同的源ip，转换后的ip是相同的。</td>
+576:./ad/snat/snat_unit.html:260:			如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+588:./ad/snat/snat_unit.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+597:./ad/ssl_crl/add.html:90:				&nbsp;&nbsp;<span id="interval_msg" class="htips">(下载间隔的取值范围为1分钟～<%max_interv%>秒，默认值为6小时，最大值为30天)</span>
+670:./ad/ssl_encrypt_profile/add.html:20:				&nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+674:./ad/ssl_encrypt_profile/add.html:219:				&nbsp;&nbsp;<span id="server_auth__sess_cache_size_msg" class="htips">(缓存会话数量取值范围100~<%max_sess_cache%>，默认值为2000)</span>
+677:./ad/ssl_encrypt_profile/add.html:226:				&nbsp;&nbsp;<span id="server_auth__sess_cache_timeout_msg" class="htips">(缓存超时时间取值范围10~<%max_sess_timeout%>s，默认值为1800s)</span>
+725:./ad/ssl_encrypt_profile/add.html:373:				&nbsp;&nbsp;<span id="client_auth__cert_chain_depth_msg" class="htips">(证书链深度取值范围1~<%max_depth%>，默认值为9)</span>
+732:./ad/ssl_encrypt_profile/add.html:420:				<span style="color:#3366CC;">(可以配置0～<%max_crl_num%>个CRL)</span>
+919:./ad/ssl_profile/add.html:480:							&nbsp;&nbsp;<span id="client_auth__cli_auth_url_list_htips" class="htips" style="display:inline;">(支持通配符，可以配置至多<%uri_size%>项认证URI)</span>
+954:./ad/ssl/sslAdd_step2.html:36:						<input type="file" name="crt_file" id="crt_file" onchange="$('#file_addr_tmp').val(this.value)" onpaste="javascript:return false" value="浏 览" class="upload_file_but"  />
+955:./ad/ssl/sslCertView.html:206:            value += "└";
+966:./ad/ssl/sslList.html:409:	col_html = "<td width='110px'>"+ (d_conf["algorithm"] == "rsaEncryption" ? "RSA" : (d_conf["alg_asn1_oid"] == "SM2" ? "SM2(国密)" : "ECDSA")) +"</td>";
+975:./ad/tcp_profile/add.html:19:                &nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+983:./ad/tcp_profile/add.html:48:				&nbsp;&nbsp;<span id="idle_timeout_msg" class="htips">(取值范围为<%min_idle_timeout%>～<%max_idle_timeout%>)</span>
+986:./ad/tcp_profile/add.html:55:				&nbsp;&nbsp;<span id="timewait_timeout_msg" class="htips">(取值范围为<%min_timewait_timeout%>～<%max_timewait_timeout%>)</span>
+1017:./ad/user_define_page/add.html:20:			(长度限制为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+1020:./ad/user_define_page/add.html:55:			<span id="content_msg_nu" style="color:#666666;">字符总个数:<span id="current_char_num"></span>/<%max_content%></span>
+1021:./ad/user_define_page/list.html:92:  　var check_txt = conf["is_system_template"] ? "&nbsp;" : 
+1030:./ad/virtual_service/add.html:115:					&nbsp;&nbsp;<span id="tcp_cache_num_msg" class="htips">(TCP 缓冲流大小取值范围为1～<%max_tcp_cache_num%>个字节，请根据具体业务填写适当大小)</span>
+1035:./ad/virtual_service/add.html:122:					&nbsp;&nbsp;<span id="end_str_msg" class="htips">(结束字符的长度为0～<%max_end_str%>个字节)</span>
+1043:./ad/virtual_service/add.html:146:                            <a  class="rule_show" >[ </a><a  class="rule_show" style="text-decoration:underline;cursor: pointer;" onclick="select_hide_change('pre_rule',pre_rule_size,'rule');">多选</a><a  class="rule_show" > ]</a>
+1048:./ad/virtual_service/add.html:1620:	var opt_str = "<option value='-1'>-- 未启用 --</option><option value='0'>自动SNAT</option>";
+1053:./ad/virtual_service/add.html:178:				<span class="rule_hide" style="color:#3366CC;display:none">(可以配置0～<%max_sched_rule_num%>个前置策略)</span>
+1074:./ad/virtual_service/add.html:272:                            <a  class="ssl_dec_show" >[ </a><a  class="ssl_dec_show" style="text-decoration:underline;cursor: pointer;" onclick="select_hide_change('ssl_rule',ssl_dec_size,'ssl_dec');">多选</a><a  class="ssl_dec_show" > ]</a>
+1079:./ad/virtual_service/add.html:304:				<span class="ssl_dec_hide" style="color:#3366CC;display:none;">(可以配置1～<%max_ssl_profile_num%>个SSL卸载策略)</span>
+1081:./ad/virtual_service/add.html:315:                            <a  class="ssl_enc_show" >[ </a><a  class="ssl_enc_show" style="text-decoration:underline;cursor: pointer;" onclick="select_hide_change('ssl_encrypt_rule',ssl_enc_size,'ssl_enc');">多选</a><a  class="ssl_enc_show" > ]</a>
+1086:./ad/virtual_service/add.html:347:				<span class="ssl_enc_hide" style="color:#3366CC;display:none;">(可以配置1～<%max_ssl_profile_num%>个SSL加密策略)</span>
+1087:./ad/virtual_service/add.html:358:                            <a  class="script_rule_show" >[ </a><a  class="script_rule_show" style="text-decoration:underline;cursor: pointer;" onclick="select_hide_change('script_rule',script_rule_size,'script_rule');">多选</a><a  class="script_rule_show" > ]</a>
+1093:./ad/virtual_service/add.html:390:				<span class="script_rule_hide" style="display:none; color:#3366CC;">(可以配置0～<%VS_SUPPORT_LUA_FILE_NUM%>个iPro)</span>
+1101:./ad/virtual_service/add.html:421:				<span id="user_seled_msg" class="htips">(最多可以添加<%max_user_name%>个用户)</span>
+1118:./ad/virtual_service/add.html:483:							&nbsp;&nbsp;<span id="server_version_msg" class="htips">(长度为1～63字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+1126:./ad/virtual_service/add.html:70:			<td class="label" >读写分离<a href="/html/ad/virtual_service/help.html" target="_blank">[帮助文档]</a></td>
+1134:./ad/virtual_service/unit_add.html:101:<ul class='tag_gray'><a href="/cgi-bin/ad/virtual_service/virtual_service.cgi?action=list">虚拟服务</a></ul><ul class='tag_selected'>虚拟服务关联组</ul>
+1137:./ad/virtual_service/unit_add.html:118:<span style="font-weight:bold;">虚拟服务关联组：</span>发布相同IP或使用相同节点池的多个虚拟服务一定在同一个关联组中，该图展示这些虚拟服务之间的关联关系。
+1138:./ad/virtual_service/unit_add.html:122:<span style="font-weight:bold;">关联应用组：</span>选择该虚拟服务关联组所属的应用组。应用组在哪台设备上生效，该关联组包含的虚拟服务就在哪台设备上生效。
+1140:./ad/virtual_service/unit_add.html:140:			<td colspan="2" class="obj_title">虚拟服务关联组<span style="color:#36c;font-weight:normal;padding-left:20px">温馨提示:该图表示本虚拟服务关联组中，虚拟服务转换规则之间的关联关系。</span></td>
+1150:./ad/virtual_service/unit_add.html:253:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1162:./ad/virtual_service/unit_add.html:60:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1163:./ad/virtual_service/unit_list.html:100:<ul class='tag_gray'><a href="/cgi-bin/ad/virtual_service/virtual_service.cgi?action=list">虚拟服务</a></ul><ul class='tag_selected'>虚拟服务关联组</ul>
+1169:./ad/virtual_service/unit_list.html:213:			如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1182:./ad/virtual_service/unit_list.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1194:./ad/vs_sched_rule/add.html:166:							&nbsp;(HTTP头部名称长度限制为1～<span id="MAX_CGI_HEADER_NAME_LEN_0"></span>个字符,
+1201:./ad/vs_sched_rule/add.html:190:							<span id="http_conds_msg" class="htips">(条件值长度限制1～<span id="MAX_MATCH_PATTERN_0"></span>个字符)</span>
+1214:./ad/vs_sched_rule/add.html:310:					<option value="SCHED_FAIL_ACTION_DROP">丢弃</option>-->
+1215:./ad/vs_sched_rule/add.html:542:				$("#fail_action").html("<option value='SCHED_FAIL_ACTION_NEXT'>匹配下一条</option><option value='SCHED_FAIL_ACTION_CLS_BY_FIN'>FIN关闭</option><option value='SCHED_FAIL_ACTION_CLS_BY_RST'>RST关闭</option>");
+1216:./ad/vs_sched_rule/add.html:546:				$("#fail_action").html("<option value='SCHED_FAIL_ACTION_NEXT'>匹配下一条</option><option value='SCHED_FAIL_ACTION_CLS_BY_FIN'>FIN关闭</option><option value='SCHED_FAIL_ACTION_CLS_BY_RST'>RST关闭</option><option value='SCHED_FAIL_ACTION_DROP'>丢弃</option>");
+1217:./ad/vs_sched_rule/add.html:551:			$("#fail_action").html("<option value='SCHED_FAIL_ACTION_NEXT'>匹配下一条</option><option value='SCHED_FAIL_ACTION_CLS_BY_FIN'>FIN关闭</option><option value='SCHED_FAIL_ACTION_CLS_BY_RST'>RST关闭</option>");
+1218:./ad/vs_sched_rule/add.html:555:			$("#fail_action").html("<option value='SCHED_FAIL_ACTION_NEXT'>匹配下一条</option><option value='SCHED_FAIL_ACTION_USER_DEFINED'>返回自定义页面</option><option value='SCHED_FAIL_ACTION_CLS_BY_FIN'>FIN关闭</option><option value='SCHED_FAIL_ACTION_CLS_BY_RST'>RST关闭</option>");
+1219:./ad/vs_sched_rule/add.html:559:			$("#fail_action").html("<option value='SCHED_FAIL_ACTION_NEXT'>匹配下一条</option><option value='SCHED_FAIL_ACTION_DROP'>丢弃</option>");
+1221:./ad/vs_sched_rule/add.html:964:	$("#rule_action option[value=" +　json_conf["rule_action"]+"]").attr("selected", true);
+1222:./ad/vs_sched_rule/add.html:965:	$("#rule_action_tcp option[value=" +　json_conf["rule_action"]+"]").attr("selected", true);
+1224:./cluster/apps_add.html:100:<ul class='tag_selected'>新建应用组</ul><ul class='help_button'>帮助信息</ul>
+1227:./cluster/apps_add.html:116:					<span style="font-weight:bold;">名称：</span>一个应用组的名称，用于标识一个应用组。
+1232:./cluster/apps_add.html:121:				<span style="font-weight:bold;">会话同步：</span>若开启，该应用组的生效设备会同步会话到备份设备之上，如果生效设备故障，备份设备成为生效设备，可保证原有连接不中断。
+1236:./cluster/apps_add.html:126:				<span style="font-weight:bold;">默认设备：</span>若选择一个默认设备，这个默认设备具有最高的优先级被选举为生效设备。
+1237:./cluster/apps_add.html:131:				<span style="font-weight:bold;">抢占模式：</span>若开启了抢占模式，该应用组的默认设备如果健康，会主动成为生效设备，而使原生效设备成为应用组的备份设备。
+1238:./cluster/apps_add.html:136:				<span style="font-weight:bold;">故障检测：</span>选择与应用组关联的链路，如果一台设备的关联链路故障，若该设备是生效设备，则发生故障切换，应用组会切换到其他设备上，若该设备不是生效设备，则应用组生效设备故障时，该设备不具有成为应用组生效设备的能力。
+1239:./cluster/apps_add.html:141:				<span style="font-weight:bold;">虚拟MAC：</span>若为应用组在某条链路上配置一个虚拟MAC地址，应用组在该链路上的所有IP地址，都用这个伪装的MAC与外部通讯，如果发生了故障切换，新的生效设备能够继续使用这个伪装MAC与外部通讯。
+1240:./cluster/apps_add.html:146:				<span style="font-weight:bold;">权重：</span>若应用组在某台设备上生效，则该设备的负载会根据应用组的权重相应增加，当应用组在集群中切换时，会根据设备的负载状况选择设备。
+1241:./cluster/apps_add.html:151:				<span style="font-weight:bold;">应用组关联信息：</span>该应用组包含的一组配置，包括浮动IP、虚拟服务、NAT规则。这些配置使该应用组具有发布服务的能力。
+1245:./cluster/apps_add.html:174:					   &nbsp;&nbsp;<span id="name_msg" class="htips">(长度限制为1～<span id="maxLength"></span>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span></td>
+1283:./cluster/apps_add.html:384:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1296:./cluster/apps_add.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1316:./cluster/apps_list.html:145:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1336:./cluster/apps_list.html:58:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1342:./cluster/cluster_add.html:100:<ul class='tag_selected'>集群维护</ul><ul class='help_button'>帮助信息</ul>
+1344:./cluster/cluster_add.html:115:<span style="font-weight:bold;">集群状态：</span>包括禁用、加入集群、创建集群。若想组建一个集群，先进入第一台设备，选择创建集群，然后在成员管理页面，将其他设备加入到集群中，其他各台设备选择加入集群。
+1345:./cluster/cluster_add.html:121:<span style="font-weight:bold;">设备管理IP：</span>设备管理口上的IP地址，用于集群控制连接的建立，和设备间的心跳监视。
+1346:./cluster/cluster_add.html:127:<span style="font-weight:bold;">HA网口：</span>设备的一个物理接口(可使用聚合口），并需配置IP地址，用于数据连接的建立，和设备间的心跳监视。
+1347:./cluster/cluster_add.html:133:<span style="font-weight:bold;">密钥：</span>用于集群认证和传输加密，所有设备必须有相同的密钥，才能组建集群。
+1348:./cluster/cluster_add.html:139:<span style="font-weight:bold;">集群名称：</span>集群的名称，用于标识一个集群。
+1349:./cluster/cluster_add.html:143:<span style="font-weight:bold;">集群管理IP：</span>用于管理整个集群的IP地址，用该IP可登录到集群管理界面。
+1350:./cluster/cluster_add.html:149:<span style="font-weight:bold;">心跳超时时间：</span>集群中的设备，如果在超时时间内收不到其他设备的心跳，就认为其他设备已离线，然后接替该设备的工作。
+1351:./cluster/cluster_add.html:155:<span style="font-weight:bold;">心跳间隔时间：</span>集群中的设备每隔一个间隔时间，广播心跳包给集群中的其他设备。
+1355:./cluster/cluster_add.html:170:启用通信介质检测,可以防止集群内各节点间的心跳出现故障时而带来的灾害<span style="color:red; font-weight:bold; height:20px;">（当启用通信介质检测时，如若修改了业务口，需要同步修改业务口引用的物理口）</span>。
+1359:./cluster/cluster_add.html:198:					   &nbsp;<span id="cluster_name_msg" class="htips">(长度限制为1～<span id="maxLength"></span>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span></td>
+1402:./cluster/cluster_add.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1404:./cluster/cluster_add.html:753:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1410:./cluster/cluster_hp.html:115:<span style="font-weight:bold;">集群状态：</span>包括禁用、加入集群、创建集群。若想组建一个集群，先进入第一台设备，选择创建集群，然后在成员管理页面，将其他设备加入到集群中，其他各台设备选择加入集群。
+1412:./cluster/cluster_hp.html:121:<span style="font-weight:bold;">设备管理IP：</span>设备管理口上的IP地址，用于集群控制连接的建立，和设备间的心跳监视。
+1413:./cluster/cluster_hp.html:127:<span style="font-weight:bold;">HA网口：</span>设备的一个物理接口(可使用聚合口），并需配置IP地址，用于数据连接的建立，和设备间的心跳监视。
+1414:./cluster/cluster_hp.html:133:<span style="font-weight:bold;">密钥：</span>用于集群认证和传输加密，所有设备必须有相同的密钥，才能组建集群。
+1415:./cluster/cluster_hp.html:139:<span style="font-weight:bold;">集群名称：</span>集群的名称，用于标识一个集群。
+1416:./cluster/cluster_hp.html:143:<span style="font-weight:bold;">集群管理IP：</span>用于管理整个集群的IP地址，用该IP可登陆到集群管理界面。
+1417:./cluster/cluster_hp.html:149:<span style="font-weight:bold;">心跳超时时间：</span>集群中的设备，如果在超时时间内收不到其他设备的心跳，就认为其他设备已离线，然后接替该设备的工作。
+1418:./cluster/cluster_hp.html:155:<span style="font-weight:bold;">心跳间隔时间：</span>集群中的设备每隔一个间隔时间，广播心跳包给集群中的其他设备。
+1419:./cluster/cluster_hp.html:160:<span style="font-weight:bold;">会话同步：</span>若开启，集群中的设备会相互同步会话。若有设备发生故障，可保证原有连接不中断。
+1453:./cluster/cluster_hp.html:316:				   &nbsp;<span id="cluster_name_msg" class="htips">(长度限制为1～<span id="maxLength"></span>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span></td>
+1487:./cluster/cluster_hp.html:451:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1494:./cluster/cluster_hp.html:57:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1500:./cluster/cluster_pattern.html:117:					<span style="font-weight:bold;">主备模式：</span>双机热备，主设备处于发布服务状态，备设备不工作，备设备如果发现主设备故障，接替主设备继续提供服务。
+1501:./cluster/cluster_pattern.html:122:					<span style="font-weight:bold;">高可用集群模式：</span>支持多台设备组建集群，集群中的不同设备可发布不同的服务，并且互相监视健康状态，如果其中的一台设备故障，其发布的服务会被集群中的其他设备接替。
+1502:./cluster/cluster_pattern.html:127:					<span style="font-weight:bold;">高性能集群模式：</span>支持多台设备组建集群，高性能。
+1519:./cluster/cluster_pattern.html:324:			如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1531:./cluster/cluster_pattern.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1535:./cluster/cluster_repair.html:114:<span style="font-weight:bold;">集群状态：</span>包括禁用、加入集群、创建集群。若想组建一个集群，先进入第一台设备，选择创建集群，然后在成员管理页面，将其他设备加入到集群中，其他各台设备选择加入集群。
+1536:./cluster/cluster_repair.html:120:<span style="font-weight:bold;">设备管理IP：</span>设备管理口上的IP地址，用于集群控制连接的建立，和设备间的心跳监视。
+1537:./cluster/cluster_repair.html:126:<span style="font-weight:bold;">HA网口：</span>设备的一个物理接口(可使用聚合口），并需配置IP地址，用于数据连接的建立，和设备间的心跳监视。
+1538:./cluster/cluster_repair.html:132:<span style="font-weight:bold;">密钥：</span>用于集群认证和传输加密，所有设备必须有相同的密钥，才能组建集群。
+1539:./cluster/cluster_repair.html:138:<span style="font-weight:bold;">集群名称：</span>集群的名称，用于标识一个集群。
+1540:./cluster/cluster_repair.html:142:<span style="font-weight:bold;">集群管理IP：</span>用于管理整个集群的IP地址，用该IP可登录到集群管理界面。
+1541:./cluster/cluster_repair.html:148:<span style="font-weight:bold;">心跳超时时间：</span>集群中的设备，如果在超时时间内收不到其他设备的心跳，就认为其他设备已离线，然后接替该设备的工作。
+1542:./cluster/cluster_repair.html:154:<span style="font-weight:bold;">心跳间隔时间：</span>集群中的设备每隔一个间隔时间，广播心跳包给集群中的其他设备。
+1576:./cluster/cluster_repair.html:310:				   &nbsp;<span id="cluster_name_msg" class="htips">(长度限制为1～<span id="maxLength"></span>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span></td>
+1602:./cluster/cluster_repair.html:428:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1613:./cluster/cluster_repair.html:58:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+1615:./cluster/cluster_repair.html:99:<ul class='tag_selected'>集群维护</ul><ul class='help_button'>帮助信息</ul>
+1616:./cluster/device_create.html:100:				<span style="font-weight:bold;">设备管理IP：</span>设备管理口上的IP地址，用于集群控制连接的建立，和设备间的心跳监视。
+1617:./cluster/device_create.html:105:				<span style="font-weight:bold;">HA口IP：</span>设备HA口上的IP地址，用于数据连接的建立，和设备间的心跳监视。
+1621:./cluster/device_create.html:129:					   &nbsp;&nbsp;<span id="name_msg" class="htips">(长度限制为1～<span id="maxLength"></span>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span></td>
+1634:./cluster/device_create.html:377:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1637:./cluster/device_create.html:79:<ul class='tag_selected'>新建设备</ul><ul class='help_button'>帮助信息</ul>
+1639:./cluster/device_create.html:95:					<span style="font-weight:bold;">名称：</span>一台设备的名称，用于标识集群中的一台设备
+1662:./cluster/device_list.html:155:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+1748:./data_center/gfad_server/add.html:150:	for (var i = 0; i <　ip_seled_select.length; ++i){
+1749:./data_center/gfad_server/add.html:151:		var val = 　ip_seled_select[i].value;
+1750:./data_center/gfad_server/add.html:16:			&nbsp;&nbsp;<span id="name_msg" class="htips">(长度限制为1～<%max_name%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+1761:./data_center/gfad_server/list.html:103:		col_html = "<td width='200px' style='color:green'>"+"在线"+"</td>"
+1762:./data_center/gfad_server/list.html:107:		col_html = "<td width='200px' style='color:red'>"+"离线"+"</td>"
+1763:./data_center/gfad_server/list.html:122:			col_html = "<td width='200px' style='color:green'>"+"在线"+"</td>"
+1764:./data_center/gfad_server/list.html:125:            col_html = "<td width='200px' style='color:red'>"+"离线"+"</td>"
+1778:./data_center/global_stat/datacenter.js:1116:                                        text: result.data.series.length ? '' : '<div style="font-size: 12px;color:#999999;">无数据<i class="cpu-warn"></i></div>',
+1782:./data_center/global_stat/datacenter.js:1201:                                text: result.data.series.length ? '' : '<div style="font-size: 12px;color:#999999;">无数据<i class="cpu-warn"></i></div>',
+1783:./data_center/global_stat/datacenter.js:1224:                                text: result.data.series.length ? '' : '<div style="font-size: 12px;color:#999999;">无数据<i class="cpu-warn"></i></div>',
+1785:./data_center/global_stat/datacenter.js:1555:                    pointFormat: '{series.name} cpu占用率 <b>{point.y:,.0f}%</b><br/>'
+1795:./data_center/global_stat/datacenter.js:238:                "<input value='关闭' type='button'/>",
+1798:./data_center/global_stat/datacenter.js:522:                        text: '单位<br/>(' + y_unit.name + ')',
+1825:./data_center/global_stat/global_stat.html:104:    						<span>您还可以选择<span class="to-select">0</span>个(最多<span class="total">8</span>个)</span>
+1826:./data_center/global_stat/global_stat.html:105:							<input type="button" value='确定' id='vsConfirm'>
+1827:./data_center/global_stat/global_stat.html:14:        		<span class="panel">刷新时间间隔：<span class='refresh-interval'>1分钟</span></span>
+1843:./data_center/global_stat/global_stat.html:62:        	<p class="title">服务设备数据分析 ( <span class="sel">已选</span>/<span class="tol">所有</span> ) </p>
+1849:./data_center/global_stat/global_stat.html:76:    						<span>您还可以选择<span class="to-select">0</span>个(最多<span class="total">8</span>个)</span>
+1850:./data_center/global_stat/global_stat.html:77:							<input type="button" value='确定' id='devConfirm'>
+1852:./data_center/global_stat/global_stat.html:91:        	<p class="title">虚拟服务数据分析 ( <span class="sel">已选</span>/<span class="tol">所有</span> ) </p>
+1875:./dns/dns_record/dns_rec_a.html:20:				&nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+1885:./dns/dns_record/dns_rec_a.html:66:							<span id="A_host_msg" class="htips">(请输入合法的IPv4地址)</span><span id="A_ttl_msg" class="htips">(TTL取值范围为0～86400)</span>
+1887:./dns/dns_record/dns_rec_a.html:91:                            <span id="A_rec_list_msg" class="htips">(最多可以添加<%max_dns_alias%>个A记录)</span>                     </td>
+1890:./dns/dns_record/dns_rec_ptr.html:215:		var format = "当前已配置<font color='#FF3300'>@data</font>/<%max_dns_alias%>个域名";
+1899:./dns/dns_record/dns_rec_ptr.html:60:							<span id="ptr_domain_msg" class="htips">(请输入域名，不支持通配符，长度限制为1～<%max_name%>个字符)</span>
+1900:./dns/dns_record/dns_rec_ptr.html:64:						<td>TTL：</td>
+1905:./dns/dns_record/dns_rec_ptr.html:87:				<span id="ptr_rec_list_msg" class="htips">(最多可以添加<%max_dns_alias%>个域名)</span>
+1912:./dns/dns_record/dns_rec_soa.html:19:				&nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+1918:./dns/dns_record/dns_rec_soa.html:45:				&nbsp;&nbsp;<span id="soa_mname_msg" class="htips">(请输入源主机地址，不支持通配符，长度限制为1～<%max_name%>个字符)</span>
+1932:./dns/dns_record/dns_rec_soa.html:84:			<td class="label">TTL：</td>
+1939:./dns/dns_record/dns_rec_srv.html:116:	var format = "当前已配置<font color='#FF3300'>@data</font>/<%max_dns_alias%>个主机";
+1941:./dns/dns_record/dns_rec_srv.html:20:			&nbsp;&nbsp;<span id="name_msg" style="color:#3366CC; display:none;">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+1955:./dns/dns_record/dns_rec_srv.html:71:				<td>TTL：</td>
+1960:./dns/dns_record/dns_rec_srv.html:93:		<span id="srv_rec_list_msg" class="htips">(最多可以添加<%max_dns_alias%>个域名)</span>
+2105:./gcs_activate.js:131:                            '<td colspan="0" class="gcs_cell"><input class="gcs_input" type="text" id="GCS_Num" maxLength="15" placeholder="请输入您的手机号" style="width: 280px;" /></td>' +
+2111:./gcs_activate.js:148:                            '<td colspan="0" class="gcs_cell"><input style="width: 280px;" class="gcs_input" type="text" id="GCS_Num_exist" maxLength="15" placeholder="使用已验证的手机号" /></td>' +
+2120:./gcs_activate.js:191:						'<h1>深信服科技社区<span class="GCS_btn_bbs" id="GCS_id_btn_entry_to_bbs"><a id="GCS_id_link_entry_to_bbs" target="_blank">点击进入</a></span></h1>'		 +
+2151:./gcs_activate.js:350:			act_zztjqq : "正在提交您的请求&nbsp;",
+2158:./gcs_activate.js:357:			act_sjh : "手机号:&nbsp;",
+2166:./gcs.css:1:﻿
+2172:./gcs_notifys.js:60:						'<input type="button" value="了解更多详情..." class="gcs_ad_btn" id="GCS_nfy_more"></input>'	+
+2173:./gcs_notifys.js:63:						'<input type="button" value="不感兴趣" class="gcs_ad_btn" id="GCS_nfy_uninterested"></input>'	+
+2174:./gcs_notifys.js:64:						'<input type="button" value="下次提醒" class="gcs_ad_btn" id="GCS_ntf_remindnext"></input>'	+
+2211:./gcs_webupd.html:124:				<p id='id_p_comment1' class="grey"><span id='id_sp_comment1_beg'></span><span id="id_text_down_url"></span>，<a id="id_link_down" target="_blank"></a><span id='id_sp_comment1_end'></span></p>
+2223:./gcs_webupd.html:365:				html_id_a_cfg_proxy : "&nbsp;配置代理服务器",
+2228:./gcs_webupd.html:370:				html_id_sp_nospace : "下载失败,空间不足,请释放空间后重试!&nbsp;&nbsp;&nbsp;&nbsp;",
+2230:./gcs_webupd.html:372:				html_id_sp_sn_failed : "对不起,您的升级序列号无效或者已经过期,请联系深信服科技客服更新序列号!&nbsp;&nbsp;&nbsp;&nbsp;",
+2240:./gcs_webupd.html:382:				html_id_sp_canceled : "&nbsp;&nbsp;已取消下载&nbsp;&nbsp;&nbsp;&nbsp;",
+2242:./gcs_webupd.html:384:				html_id_sp_down_done : "&nbsp;升级包下载完成&nbsp;&nbsp;",
+2246:./gcs_webupd.html:388:				html_id_sp_comment1_end : "）",
+2251:./gcs_webupd.html:393:				html_id_img_comment_uplbar: "Internet选项 -> 安全 -> 自定义级别 -> ActiveX控件和插件 -> 对未标记为可安全执行脚本的ActiveX控件初始化并执行脚本 -> 启用;<br>IE8下还需要:Internet选项 -> 安全 -> 自定义级别 -> 将本地文件上载至服务器时包含本地目录路径 -> 启用",
+2260:./gcs_webupd.html:402:				html_id_sp_text_ondo : "正在准备升级&nbsp;",
+2264:./gcs_webupd.html:406:				html_id_sp_upd_ok : "升级成功!&nbsp;&nbsp;&nbsp;&nbsp;",
+2358:./gcs_webupd.html:503:                PKG_UPD_NOT_FORCED : "对不起,升级包不支持在此设备升级.<br>若要强制升级,请联系深信服科技客服人员.",
+2389:./html_clv/clv_apps.js:532:				resource_table += '<td width="120">' + ((resource[j] && resource[j].key+'：')||'')+ '</td><td width="20">' +  ((resource[j] && resource[j].value) || '' )+ '</td>';
+2390:./html_clv/clv_apps.js:563:       var retryHtml = "<br/>请检查<a href=\"#\" onclick=\";top.frames[\'mainFrame\'].location.href =  \'/cgi-bin/net/net_interface/net_interface.cgi?action=list\'; clvObj.hideClass()\";> 网络配置接口</a> 及<a href=\"#\" onclick=\"top.frames[\'mainFrame\'].location.href =  \'/cgi-bin/net/dns/dns.cgi?action=edit\';clvObj.hideClass()\";> DNS服务器配置</a> 或 ";
+2391:./html_clv/clv_apps.js:565:			html = '<div  class="tmp" style="position:absolute;top:50%;left:50%;margin:-10px 0px 0px -150px;min-height:20px;line-height:20px;width:360px;background-color:#ffffe0;padding:15px 15px 15px 20px;border-color: #66afe9;outline:0;	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);z-index:10005;">' + text + (retry?retryHtml:"") +' <a onclick="clvObj.cancelWin()" href="#">取消</a></div>';
+2410:./html_clv/clv_template.html:11:					<span>*</span>联&nbsp;系&nbsp;人:
+2413:./html_clv/clv_template.html:125:			<div class="apply_cancel" id="success_cancel"><div class="btn_text">关&nbsp;&nbsp;&nbsp;闭</div></div>
+2417:./html_clv/clv_template.html:140:			<div class="apply_cancel" id="failed_cancel" style="display:none;"><div class="btn_text">关&nbsp;&nbsp;&nbsp;闭</div></div>
+2419:./html_clv/clv_template.html:19:					<span>*</span>手机号码:
+2421:./html_clv/clv_template.html:30:					<span>*</span>验&nbsp;证&nbsp;码:
+2422:./html_clv/clv_template.html:38:					<span>*</span>公司名称:
+2423:./html_clv/clv_template.html:46:					推&nbsp;荐&nbsp;人:
+2426:./html_clv/clv_template.html:62:				申请成功后，您可以在保持连接网络的情况下，免费使用产品<span id="reserve_day"></span>天。
+2430:./html_clv/clv_template.html:81:					使用有效期截至：<span id="expire_time">2016-12-13</span>
+2443:./html_vls/VLS.js:419:                '<div class="x-auth-warn-title"><div><span>·</span>授权ID和序列号请联系当地销售或致电400-806-6868进行咨询购买。</div></div>',
+2464:./html_vls/VLS.js:539:                '<li class="x-vls-local-auth-item">联系深信服市场人员或代理商<br />获取深信服授权服务器管理平台key与序列号，或授权ID与序列号。</li>',
+2465:./html_vls/VLS.js:540:                '<li class="x-vls-local-auth-item">如果你使用Key与序列号方式<br />则在服务器插入Key后，在授权服务器管理平台上导入序列号即可。</li>',
+2466:./html_vls/VLS.js:541:                '<li class="x-vls-local-auth-item">如果您使用授权ID与序列号方式<br />在授权服务器管理平台上输入授权ID和序列号即可。</li>',
+2485:./include/html_index.html:149:						var msg = "【" + (weak.res == 1 ? weak.user_name : weak.others[0]) + "】";
+2489:./include/html_index.html:184:            if (ssd_check() && "<%title%>" == "功能模块说明")
+2490:./include/html_index.html:192:                            if ("<%title%>" == "功能模块说明")
+2491:./include/html_index.html:208:                    if ("<%title%>" == "功能模块说明")
+2496:./linklb/intel_route/routeAdd.html:44:                    <span id="movePos_msg" class="htips">(请输入数字,范围在1~<%max_route_num%>之间，序号大于路由个数的，按默认放在最后一条处理)</span></td>
+2497:./linklb/intel_route/routeAdd.html:48:                <td class="settings"><div style="color:blue; letter-spacing:1px;">当前总共<span style="color:red;"><%router_items%></span>条智能路由</div></td>
+2505:./linklb/script_run/add.html:19:			&nbsp;&nbsp;<span id="name_msg" class="htips">(长度限制为1～63个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+2509:./linklb/script_run/add.html:35:			&nbsp;&nbsp;<span id="descript_msg" class="htips">(长度限制为1～99个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+2516:./linklb/script_run/add.html:80:									<input type="file" name="file_addr" id="file_addr" onchange="$('#file_addr_tmp').val(this.value)" onpaste="javascript:return false" value="浏 览" class="upload_file_but"  />
+2538:./linklb/script_run/script_import.html:26:									<input type="file" name="file_addr" id="file_addr" onchange="$('#file_addr_tmp').val(this.value)" onpaste="javascript:return false" value="浏 览" class="upload_file_but"  />
+2565:./net/acl/add_acl_base.html:412:				var ss = "&nbsp;&nbsp;&nbsp;自定义类型(" + wi + ")";
+2582:./net/arp_agent/add.html:18:			&nbsp;&nbsp;<span id="name_msg" class="htips">(长度限制为1～<%max_name%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+2591:./net/arp_agent/add.html:519:		var opt_str = "<option value='-1'>-- 请选择 --</option><option value='4294967295'> MANAGE</option><option value='0'>自动出接口</option>";
+2594:./net/arp_agent/add.html:567:		for (var i = 0; i <　ip_seled_select.length; ++i){
+2595:./net/arp_agent/add.html:568:			var val = 　ip_seled_select[i].value;
+2599:./net/arp_agent/add.html:74:				<span id="ip_seled_msg" class="htips">(最多可以添加<%max_ipgroup_ipnum%>个代理IP)</span>
+2602:./net/arp_agent/add.html:86:								<option value="0">自动出接口</option>  -->
+2606:./net/arp_agent/list.html:150:		col_html = "<td width='300px'>"+"自动出接口"+"</td>";
+2629:./net/dns/dnsconf.html:194:							IP Address：<input name="sub_net" type="text" id="sub_net" class="fin4" style="width:273px"/>
+2647:./net/hosts/list.html:87:		}　
+2653:./net/inside_dns/dns_aaaa.html:20:				&nbsp;&nbsp;<span id="name_msg" class="htips">(长度为1～<%max_name%>字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+2663:./net/inside_dns/dns_aaaa.html:66:							<span id="A_host_msg" class="htips">(请输入合法的IPv6地址)</span><span id="A_ttl_msg" class="htips">(TTL取值范围为0～86400)</span>
+2665:./net/inside_dns/dns_aaaa.html:91:                            <span id="A_rec_list_msg" class="htips">(最多可以添加<%max_dns_alias%>个AAAA记录)</span>                     </td>
+2674:./net/mapped/basic_mapped.html:186:				<span id="dst_port_msg" class="htips">(映射目的端口取值范围为1～65535，格式为：1或者1-20，0表示所有端口，支持逗号间隔的最多<%max_dnat_range_pre_rule%>个端口范围)</span>
+2688:./net/net_interface/net_interface_lan_cluster.html:111:				<span id="sta_ip_addr_list_msg" class="htips">(静态IP与浮动IP最多可添加<%max_ip%>个IP地址)</span>
+2699:./net/net_interface/net_interface_lan_cluster.html:174:				<span id="ip_addr_list_msg" class="htips">(静态IP与浮动IP最多可添加<%max_ip%>个IP地址)</span>
+2700:./net/net_interface/net_interface_lan_cluster.html:17:				<input type="text" class="fin12" name="lan_name" id="lan_name" value="<%lan_name%>" <%readonly%> >&nbsp;<span id="lan_name_msg" class="htips">(长度限制为1～<%max_name%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+2727:./net/net_interface/net_interface_lan_cluster.html:348:			$("#sta_ip_addr_list_msg").text("静态IP与通用IP最多可添加<%max_ip%>个IP地址");
+2728:./net/net_interface/net_interface_lan_cluster.html:349:			$("#ip_addr_list_msg").text("静态IP与通用IP最多可添加<%max_ip%>个IP地址");
+2730:./net/net_interface/net_interface_lan_cluster.html:352:			$("#sta_ip_addr_list_msg").text("静态IP与浮动IP最多可添加<%max_ip%>个IP地址");
+2731:./net/net_interface/net_interface_lan_cluster.html:353:			$("#ip_addr_list_msg").text("静态IP与浮动IP最多可添加<%max_ip%>个IP地址");
+2789:./net/net_interface/net_interface_wan_cluster.html:112:				<span id="sta_ip_addr_list_msg" class="htips">(静态IP与浮动IP最多可添加<%max_ip%>个IP地址)</span>
+2811:./net/net_interface/net_interface_wan_cluster.html:162:				<span id="ip_addr_list_msg" class="htips">(静态IP与浮动IP最多可添加<%max_ip%>个IP地址)</span>
+2814:./net/net_interface/net_interface_wan_cluster.html:17:				<input type="text" class="fin12" name="wan_name" id="wan_name" value="<%wan_name%>" <%readonly%> >&nbsp;<span id="wan_name_msg" class="htips">(长度限制为1～<%max_name%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+2819:./net/net_interface/net_interface_wan_cluster.html:206:				<span id="sta_ip_addr_list_msg" class="htips">(静态IP与浮动IP最多可添加<%max_ip%>个IP地址)</span> -->
+2857:./net/net_interface/net_interface_wan_cluster.html:399:				&nbsp;&nbsp;<span id="detect_host_select_msg" class="htips">(最多只能添加<%monitor_host_num%>个监视主机)</span>
+2879:./net/net_interface/net_interface_wan_cluster.html:563:			$("#sta_ip_addr_list_msg").text("静态IP与通用IP最多可添加<%max_ip%>个IP地址");
+2880:./net/net_interface/net_interface_wan_cluster.html:564:			$("#ip_addr_list_msg").text("静态IP与通用IP最多可添加<%max_ip%>个IP地址");
+2885:./net/net_interface/net_interface_wan_cluster.html:571:			$("#sta_ip_addr_list_msg").text("静态IP与浮动IP最多可添加<%max_ip%>个IP地址");
+2886:./net/net_interface/net_interface_wan_cluster.html:572:			$("#ip_addr_list_msg").text("静态IP与浮动IP最多可添加<%max_ip%>个IP地址");
+2897:./net/net_interface/net_interface_wan_cluster.html:729:		"</font>/<%max_ip%>个地址");		
+2942:./net/snat_pool/add.html:107:				<span id="ip_range_select_msg" class="htips">(最多可以添加<%inet_num%>个地址段)</span>
+2948:./net/snat_pool/add.html:18:										&nbsp;&nbsp;<span id="ipg_name_msg" class="htips">(长度为1～<%maxname%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span> </td>
+2981:./privacyprolicy.html:41:	P_LINE3 : "1.&nbsp;用户在使用深信服提供的产品和服务时，可能需要提供一些必要的能够对用户进行个人辨识或涉及个人通信的信息，包括但不限于用户真实姓名、手机号码、所在地理位置信息等。如果用户无法提供此类信息，可能无法使用对应服务或在使用过程中受到限制。同时，为了运营和改善深信服的产品和服务，深信服可能会自行收集使用或向第三方提供用户对产品的操作状态以及使用习惯等信息和其他一切个人隐私信息范围外的普通信息，以改善用户体验。",
+2982:./privacyprolicy.html:42:	P_LINE4 : "2.&nbsp;一般情况下，用户可随时浏览、修改自己提交的信息，但出于安全性和身份识别的考虑，用户可能无法修改注册时提供的初始注册信息及其他验证信息。",
+2983:./privacyprolicy.html:43:	P_LINE5 : "3.&nbsp;保护用户个人隐私信息是深信服的一贯制度，深信服将会采取合理的措施保护用户个人隐私信息。深信服未经用户同意，不向任何第三方公开、 透露用户个人隐私信息。但以下特定情形造成的用户个人隐私信息泄露由用户自行承担：<br> \
+2984:./privacyprolicy.html:44:			 <b>&nbsp;&nbsp;&nbsp;&nbsp;(1) 深信服根据法律法规规定或有权机关的指示提供用户的个人隐私信息；</b><br> \
+2985:./privacyprolicy.html:45:			 <b>&nbsp;&nbsp;&nbsp;&nbsp;(2) 由于用户将其用户密码告知他人或与他人共享注册帐户与密码等非深信服原因导致的任何个人隐私信息的泄漏；</b><br> \
+2986:./privacyprolicy.html:46:			 <b>&nbsp;&nbsp;&nbsp;&nbsp;(3) 用户自行向第三方公开其个人隐私信息；<br> \
+2987:./privacyprolicy.html:47:			 <b>&nbsp;&nbsp;&nbsp;&nbsp;(4) 用户与深信服及合作单位之间就用户个人隐私信息的使用公开达成约定，深信服因此向合作单位公开用户个人隐私信息；</b><br>  \
+2988:./privacyprolicy.html:48:			 <b>&nbsp;&nbsp;&nbsp;&nbsp;(5) 任何由于黑客攻击、电脑病毒侵入及其他不可抗力事件导致用户个人隐私信息的泄露。</b><br>",
+2989:./privacyprolicy.html:49:	P_LINE6 : "4.&nbsp;深信服郑重提醒用户注意本声明中免除深信服责任的条款，请用户仔细阅读，自主考虑风险。",
+3087:./sys/backup/backup_add.html:23:					   <span id="description_msg" class="htips">(长度限制为1～<%maxname%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+3093:./sys/backup/backup.html:203:		page_show += '<ul class="page_redirect_text" style="float:right; margin-right:10px;">&nbsp;&nbsp;&nbsp;&nbsp;手动还原点<font color="#FF3300">'+manual_list_num+'</font>/'+max_list_num+'</ul>';
+3100:./sys/backup/backup.html:49:	<ul class="page_redirect_text" style="float:right; margin-right:10px;">手动还原点<font color="#FF3300"><%list_len%></font>/10</ul>
+3106:./sys/backup/backup_rec.html:19:					<input type="file" name="file_addr" id="file_addr" onchange="$('#file_addr_tmp').val(this.value)" onpaste="javascript:return false" value="浏 览" class="upload_file_but" />
+3128:./sys/cluster_user/roleAdd.html:15:				<span id="role_name_msg" class="htips">(长度限制为1～<%max_name%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+3131:./sys/cluster_user/roleAdd.html:22:				<span id="role_note_msg" class="htips">(长度限制为0～127个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+3152:./sys/cluster_user/roleAdd.html:93:	<div id="container_head" style="padding: 5px 32px;color:#06c;">温馨提示：点击“<button class="btnExtend"  type="button" onclick="return false;"><img src="/images/s.gif" border="0" /></button>”展开子模块</div>
+3177:./sys/cluster_user/userAdd.html:45:					   &nbsp;&nbsp;<span id="user_note_msg" class="htips">(长度限制为0～127个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+3292:./sys/natlog_view/natlog_view.html:44:					   &nbsp;&nbsp;<span id="name_msg" style="display:none;color:#36c;">(长度限制为0～<%max_name%>个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+3296:./sys/natlog_view/natlog_view.html:59:                &nbsp;&nbsp;<span id="path_msg" style="display:none;color:#36c;">(请输入合法路径，以 '/' 开始,长度限制为1~<%max_path_len%>个字符)</span>
+3312:./sys/sms_alarm/sms_alarm.html:895:			passwd_1.value = "······";
+3313:./sys/sms_alarm/sms_alarm.html:897:			passwd_2.value = "······";
+3440:./sys/user/vir_userAdd.html:46:					   &nbsp;&nbsp;<span id="user_note_msg" class="htips">(长度限制为0～127个字符，且不能包含&amp; | " ' , : % < > / \ 特殊字符)</span>
+3463:./top.html:128:								str+="<b title='"+name+"'>"+dev_name+"</b></a>集群控制中心";
+3464:./top.html:157:											str+="<b title='"+name+"'>"+dev_name+"</b></a>成员控制台";
+3465:./top.html:167:											str+="<b title='"+name+"'>"+dev_name+"</b></a>成员控制台";
+3467:./top.html:403:		$("#msg_show").html("&nbsp;&nbsp;告警：该用户未授权！");
+3468:./top.html:405:	if (!<%is_vir%> && "<%machine_info%>" != "默认用户")
+3474:./viewer/active_view/active_bandwidth.html:37:		<img id="ref_client_bandwidth" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3476:./viewer/active_view/active_bandwidth.html:48:		<img id="ref_server_bandwidth" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3478:./viewer/active_view/active_cpu.html:13:</select></td><td style="padding-left: 15px;">CPU数量：<%cpu_num%>个&nbsp;&nbsp;&nbsp;核数/CPU：<%cores_per_cpu%>个</td></tr></table>
+3487:./viewer/active_view/active_http_tps.html:26:		<img id="ref_http_tps" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3495:./viewer/active_view/active_links.html:30:		<img id="ref_server_new_conns" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3497:./viewer/active_view/active_links.html:41:		<img id="ref_server_com_conns" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3499:./viewer/active_view/active_links.html:52:		<img id="ref_client_new_conns" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3501:./viewer/active_view/active_links.html:63:		<img id="ref_client_com_conns" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3503:./viewer/active_view/active_links.html:74:		<img id="ref_sys_new_conns" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3505:./viewer/active_view/active_links.html:85:		<img id="ref_sys_com_conns" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3509:./viewer/active_view/url_stat.html:413:        for(var i = 0; i <　vs["pre_rule"].length; i++)
+3533:./viewer/cluster_stat/apps_status.html:409:		if(linkError.indexOf("，")>0){
+3551:./viewer/cluster_stat/apps_status.html:567:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+3554:./viewer/cluster_stat/apps_status.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+3586:./viewer/cluster_stat/cluster_device_status.html:415:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+3598:./viewer/cluster_stat/cluster_device_status.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+3613:./viewer/cluster_stat/device_apps_status.html:362:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+3625:./viewer/cluster_stat/device_apps_status.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+3670:./viewer/cluster_stat/device_status.html:486:				如果长时间没有载入成功，请<a href="#" onclick="location.reload(true);" style="font-weight:bold; color:#FF3300;">刷新</a>重试
+3676:./viewer/cluster_stat/device_status.html:59:				confirm_msg("admin用户的密码为初始密码，</br>为保障系统安全，请立即修改。");
+3689:./viewer/ddos_stat/ddos_analysis/ddos_analysis.html:36:			<span id="ddos_count" style="color:red">0</span></a>&nbsp; 次
+3727:./viewer/ddos_stat/ddos_analysis/ddos_analysis.html:97:			<div style="width:95%;margin:auto"><span id = "show_msg" style= "display:none;">>>还有<span id = "show_num"></span>条信息未显示</span></div>
+3732:./viewer/ddos_stat/ddos_count/ddos_count.html:26:		<img id="ref_ddos_count" style="display:none;" src="/images/auto_refresh.gif" alt="点击禁止刷新" align="absmiddle" />&nbsp;&nbsp;
+3897:./welcome.html:217:。</li>

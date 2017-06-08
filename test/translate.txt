@@ -1,0 +1,1789 @@
+SIP_TCP (SIP over TCP) 
+minutes (5-3600) 
+ 
+(1 - 4294967296) 
+Request Increase Rate Per Second 
+(1 - 65535) 
+URL Match Clauses 
+case-sensitive 
+Add 
+(1 - 255. Wildcards * and ? supported) 
+(1 - 4294967296) 
+(1 - 65535) 
+Move Up 
+Move Down 
+Delete 
+(Up to 64 entries) 
+Action 
+Name 
+Action 
+Give alert 
+Block 
+Cancel 
+Finish 
+Tips 
+(1 - xxx characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Saving changes to the default policy will affect the associated virtual services. Would you like to proceed? 
+OK 
+Slow HTTP DDOS Attack Protection Trigger 
+Status 
+URL 
+Max Requests Per Second 
+Max Increased Requests Per Second 
+Enable 
+Disable 
+Inactivity Timeout 
+ second(s) 
+Request Timeout(sec) 
+Min Transfer Rate 
+Update 
+DDoS Flooding Attack Protection Trigger 
+Case-sensitive 
+Case-insensitive 
+Insert HTTP header 
+Insert JS script 
+Attributes 
+Enable##Disable 
+统计查看(removed-smn) 
+Select All 
+Slow HTTP DDoS attack 
+Flooding attack 
+Add 
+(XXX in ’cookie.XXX’ should be replaced with the expected 'cookie’ variable not containing characters $ . { }) 
+Rewrite variable 
+Rewrite variable 
+HTTP rewriting 
+Client IP 
+Client Port 
+Virtual Service IP 
+Virtual Service Port 
+Request URI 
+Request HOST 
+Server IP 
+Server Port 
+Association Variable 
+Web Browser Version: 
+Request Method 
+Request Time 
+Request Cookie 
+Certificate rewriting 
+Certificate Version 
+Certificate SN 
+Signature Algorithm 
+Certificate issuer (RFC2253) 
+Certificate valid From 
+Certificate valid Till 
+Certificate Issuer (RFC2253) 
+Public Key Type 
+Public Key 
+Public Key Length 
+Client Cert MD5 Hash 
+The actual client certificate (PEM format)  
+Certificate Name 
+Email 
+Organization 
+Department 
+Country 
+State 
+City 
+Auth Error Code 
+SSL writing 
+SSL/TLS Version 
+SSL/TLS Algorithm ID: 
+SSL/TLS Algorithm Name: 
+SSL/TLS Session ID: 
+TLS server name extension 
+(1- xxx characters) 
+Variable Encoding 
+Unchanged 
+URL Encoding 
+Base64 Encoding 
+© 2008-2017 Sangfor Technologies Inc. All Rights Reserved. 
+Please enter username and password. 
+Please enter username and password. 
+Please use compatibility mode of Internet Explorer 8. 
+Please use Internet Explorer, Google Chrome or Mozilla Firefox browser. 
+Login 
+External App Monitor 
+Monitored Objects 
+Resultant set 
+Sync status 
+(0 - xxx characters, support all types of select statements, MySQL type of show statement and MS SQL type of update statements) 
+Enable Sync Timeout Check 
+Yes 
+No 
+Sync Timeout 
+(0 - 3600) 
+ - 
+Test Connectivity 
+Server Address 
+Server Port 
+Detection 
+Test Results 
+Test with one data center server only 
+Back 
+The node is reachable. 
+Results: The node is not reachable. 
+Cause: Testing timed out 
+Interval(second) 
+Timeout 
+Max Attempts 
+1 - xxx. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Type 
+Settings 
+(1 - 255) 
+(1 - 255) 
+(1 - 255) 
+Monitored Address 
+(specified address or * that indicates all nodes) 
+Monitored Port 
+(specified port between 1 -65535 or * that indicates all ports on the nodes in the pool) 
+Log Debugging Event 
+Execute Command 
+(1 - 1024) 
+(an IP address configured on the server) 
+Select interface 
+Select IP 
+Advanced 
+Request URL 
+(1-1023, request is sent by GET method) 
+Log response state code 
+(state codes are three digit numbers between 1 and 255, separate by semicolon) 
+Max Length of Response 
+bytes 
+(1 - 4096 bytes) 
+Send String 
+(0 - 2048 characters) 
+Receive String 
+(0 - 256 characters) 
+Content Sent Before Disconnection 
+(0 - 256 characters) 
+Hexadecimal Mode 
+Basics 
+times 
+(specified address or * that indicates all nodes) 
+(specified port between 1 - 65535 or * that indicates all ports on the nodes in the pool. Default is 443) 
+Password Encryption Algorithms 
+(1 - 255) 
+Client Certificate 
+(0 - xxx characters) 
+(0 - 1023 characters) 
+Security 
+Username 
+Password 
+Other properties of string should not exceed 253 bytes. 
+(1 - 4096 bytes) 
+ available ordinary monitors 
+Enforce Scheduling When All Nodes Are Busy 
+Excessive New Connection Requests 
+Apply scheduling 
+Put in queue 
+Set to scheduling failure 
+Queue Length 
+(1 - 100000) 
+(1 - 60) 
+Connections 
+All in any status 
+All in established status 
+Edit Node 
+[View Node] 
+Max HTTP Requests Per Seconds 
+(0 means no limit) 
+Pre-assign Cookie Value 
+(Cookie should be a 8 digit number) 
+Start Port 
+End Port 
+{//编辑时，如果修改了ip\port，并没有手动修改cookie，则需要重设cookie值//bug#23655，添加一个标志吧，error_info_page页面返回时，会丢失cookie值 (removed - by smn ) 
+Prefer Busy Node 
+(1 - ## characters, consisting of letters, numbers, dot, underscores or hyphens only) 
+(0 - ## characters, consisting of letters, numbers, dot, underscores or hyphens only) 
+(1 - xxx characters) 
+(Up to 4 entries) 
+SID Study Position 
+Header 
+Body 
+(Up to 4 entries) 
+(0 - xxx characters, consisting of letters, numbers, hyphens, underscores only) 
+(0 - xxx characters) 
+Matching Contents in Request 
+SID Query Position 
+(1 second - 31536000 seconds, or one year) 
+This field is required. 
+(1 second - 31536000 seconds, or one year) 
+minute(s) 
+hours 
+days 
+Basics 
+IPv4 Address Netmask 
+(Enter a valid IPv4 address netmask or prefix. Default is 32) 
+IPv6 Address Prefix 
+(Enter a valid IPv6 address netmask or prefix. Default is 128) 
+URI Match Clauses 
+Protocol 
+Period second(s) (1 - 36000) Max Requests 1 - 1000000) 
+-- Select -- 
+Close link 
+Redirect to specified contents 
+-- Contents -- 
+--- Method -- 
+FIN 
+RST 
+Add (A URI contains 1 to 255 characters. Wildcards * and ? supported) 
+(Up to 128 entries) 
+URI Conditions 
+URL Traffic Control and Statistics 
+URL Traffic Statistics 
+URL Download Speed Control 
+Bandwidth Control 
+WAN Interface 
+Max Bandwidth Per Link 
+IP Group 
+Outbound Percent 
+Inbound Percent 
+-- Specified Wepgage -- 
+Outbound 
+Inbound 
+-- Disabled -- 
+(Up to 128 entries) 
+Max Bandwidth Per User 
+Max Outbound Bandwidth 
+(1Kbps - 10Gbps) 
+Max Inbound Bandwidth 
+(1Kbps - 10Gbps) 
+Anti-DoS 
+Anti-DDoS 
+Active Unit/Gateway 
+Active Unit 
+Gateway 
+(Enter valid IP address. If both IPv4 and IPv6 addresses have been configured, enter IPv4 address) 
+Route Re-advertisement 
+Local IP Group 
+Select 
+SNAT Associated VRRP Group 
+Any IPv4 address 
+Any IPv6 address 
+Any IPv4 address 
+Any IPv6 address 
+Specified interface 
+Src IP 
+All 
+Subnet 
+IP range 
+Local IP Group 
+Start/End IP 
+(Start IP should not be greater than end IP) 
+End IP 
+Outgoing Interface 
+Source NAT 
+SNAT Address Pool 
+SNAT Associated VRRP Group 
+Edit 
+SNAT Associated VRRP Group Tips: The following graph shows the association involved in this source NAT rule. 
+Interface IP 
+SNAT Rule 
+VRRP Group 
+Associated VRRP Group 
+Loading, please wait... 
+If loading fails to complete for too long a time, reload the page to try again. 
+Message 
+OK 
+Status 
+Reports 
+Objects 
+Load Balancing 
+Intelligent DNS 
+Routing 
+Network 
+System 
+Setup Wizard 
+Password of the account 'admin’ has never been changed. Please change it ASAP. 
+名称：源地址转换规则的名称，用来标识一条源地址转换规则。(smn确定已隐藏,不翻译) 
+状态：启用时，该源地址转换规则有效；禁用时，该源地址转换规则无效。(smn确定已隐藏,不翻译) 
+出接口：匹配源地址转换规则的数据包经过设备出去时使用的网络接口。(smn确定已隐藏,不翻译) 
+代理网段：用于判断该访问的源IP地址是否匹配这条源地址转换规则。(smn确定已隐藏,不翻译) 
+目标IP地址转换条件：用于判断该访问的目的IP地址是否匹配这条源地址转换规则。(smn确定已隐藏,不翻译) 
+协议转换条件：用于判断该访问所使用的协议是否匹配这条源地址转换规则。(smn确定已隐藏,不翻译) 
+转换源IP地址为：当访问匹配源地址转换规则时，源IP将转换为已配置的源IP转换地址。(smn确定已隐藏,不翻译) 
+转换策略:源ip+目的ip哈希：转换时会综合考虑源ip和目的ip，比如：源ip相同但目的ip不同，转换后ip可能会不同；源ip哈希：转换时只考虑源ip，比如：相同的源ip，转换后的ip是相同的。(smn确定已隐藏,不翻译) 
+SNAT Rule 
+No source NAT rule has ever been created. 
+Password should contain 1 to 49 characters. 
+(Private key has been imported) 
+Enter Password: 
+The password is incorrect. Enter Password: 
+CRL Files 
+Revoked Certificates 
+Settings: id,name,mode,url,username,password,interval,timeout,retrytimes,state,last_update 
+(1 minute - ## hours. Default is 6 hours and maximum is 30 days) 
+(1 minute - ## seconds. Default is 6 hours and maximum is 30 days) 
+Revoked Certificates: 
+File Size 
+Downloaded: 
+Encryption Algorithm 
+Encryption strength: 128 
+Encryption strength: 256 
+-- Select -- 
+Encryption strength: 168 
+Self-signed Certificate 
+Encryption strength: 56 
+TODO: check if the primary and secondary certificates are the identical. 
+Encryption strength: 0 
+Server Constructs Cert Chain 
+SNI Extension 
+Deny 
+Allow 
+Server Name(SNI) 
+(URL address containing 0- 255 characters. Wildcards support) 
+Session Multiplexing 
+Cached Sessions 
+(100 - xxx. Default is 2000) 
+Caching Timeout 
+(10 - xxx seconds. Default is 1800 seconds) 
+Server-Side Authentication 
+Policy Match Failure Cause 
+-- Authentication Failure -- 
+Default webpage for authentication failure 
+[7] signature in certificate is invalid 
+[9] certificate is invalid 
+[10] certificate has expired 
+[22] certificate chain is too long 
+[23] certificate has been revoked 
+[27] certificate is not trusted 
+[62] certificate password is too short 
+-- Protocol Match Failure -- 
+SSL encryption algorithm is not strong enough 
+The SSL protocol version is not enabled 
+It does not take effect if SSL type of virtual service is associated. 
+(Up to 8 entries) 
+(If SSL type of virtual service is associated, default rule is invalid or chooses to deny) 
+Encryption Algorithm Strength 
+(0 - 2048) 
+Client Authentication URI 
+Specified 
+All 
+Upload Client Authentication URI 
+Upload 
+Sample URI 
+Authentication URI 
+Client Authentication 
+Clientless Authentication 
+(1 - 255. Wildcards * and ? supported) 
+(Up to 128 entries. Wildcards supported) 
+Server Certificate 
+Required 
+Optional 
+Certificate Chain Length 
+(1 - xxx. Default is 9) 
+Min Key Size 
+(128 - 4096. Default is 256) 
+Root Certificate Certificate 
+Certificate 
+(0 - xxx CRLs) 
+Protocol 
+SM 1.1 
+(Specified) 
+All 
+(Select All/Invert Selection) 
+(Select All) 
+Selected: 
+Available: 
+Enable(##Disable 
+None 
+Are you sure to delete the selected entry(ies)? 
+SSL certificate 
+Session Ticket Extension 
+Redirect to specified webpage 
+Unable to gain issuer certificate 
+Unable to gain CRL 
+Unable to decrypt signature in certificate 
+Unable to decrypt signature in CRL 
+Signature in certificate is invalid 
+Certificate is invalid 
+Certificate has expired 
+CRL is invalid 
+CRL has expired 
+notBefore in certificate is invalid. 
+notAfter in certificate is invalid. 
+lastUpdate in CRL is invalid. 
+nextUpdate in CRL is invalid. 
+Memory overflow 
+Self-signed Certificate 
+Self-signed certificate in certificate chain 
+Unable to gain local issuer certificate 
+The first certificate cannot be validated 
+Certificate chain is too long 
+Certificate has been revoked 
+Path length constraint exceeds threshold 
+Certificate type is not supported 
+Certificate is not trusted 
+Subject and issuer are not matching 
+CA and key identifier in subject are not matching 
+CA and issuer SN are not matching 
+Key usage does not contain certificate signature 
+Unable to gain CRL issuer certificate 
+Unhandled important extension 
+Key usage does not contain CRL signature 
+Unhandled CRL important extension 
+Unavailable non-CA certificate (with CA mark) 
+Proxy path length constraint exceeds threshold 
+Key usage does not contain digital signature 
+Proxy certificate is not allowed. Please set a mark. 
+Certificate extension is invalid or inconsistent 
+Certificate policy extension is invalid or inconsistent 
+No clear policy 
+RFC3779 resource is not a subnet of its parent resources 
+Application program verification failed 
+No certificate is carried 
+RSA Server Certificate 
+One-way Authentication 
+Manual Authentication 
+(1 - 255 characters. Wildcards * and ? supported) 
+Authentication Method 
+Server Certificate 
+Export 
+(More than one URIs and wildcards are supported) 
+(Signed certificate) 
+Action to Authentication Failure 
+Retry Interval 
+The first time only 
+Always 
+(Encryption certificate) 
+The newly imported file will overwrite the existing one. Would you like to proceed? 
+Key 
+(4 - 49. Blank means key is null) 
+Retype Password 
+(Retype the above key) 
+Public Key Type 
+SM2 
+Hash Method 
+Signature Algorithm 
+Key Size 
+Certificate Chain 
+Secondary Username 
+Certificate Thumbprint 
+Public Key Thumbprint 
+Valid To 
+col_html = ""+ (d_conf["algorithm"] == "rsaEncryption" ? "RSA" : (d_conf["alg_asn1_oid"] == "SM2" ? "SM2(OSCCA)" : "ECDSA")) +""; 
+Inactivity Timeout 
+TIME_WAIT Timeout 
+Session Timeout 
+Other Attributes 
+(512 - 1460) 
+SYN Timeout 
+(30 - 180) 
+(xxx - xxx) 
+ms 
+Timestamp 
+TCP One-Way Acceleration 
+Enforced Connection Termination 
+Connection Termination Upon Node Isolation 
+Layer 4 Service 
+Layer 7 Service 
+Next 
+Select Mode 
+Mode 
+Layer 7##Layer 4 
+Examples:                  www.sanfor.com/index.html           www.baidu.com/* 
+Examples:     www.sanfor.com/index.html     www.baidu.com/* 
+Header 
+Default separators: 
+Current/max allowed characters: 
+TCP Buffer Stream 
+Default Node Pool 
+-- Disabled -- 
+TCP Buffer Size 
+(1 - xxx bytes) 
+Node Pool 
+End Characters 
+(0 - xxx bytes) 
+Scheduled Request 
+The first request 
+Every request 
+Scheduling Policy 
+[Select More] 
+-- Disabled -- -- Auto-- 
+(0 - xxx scheduling policies) 
+Network Policy 
+TCP Policy 
+QoS Policy 
+Auto 
+Local Triangulation 
+Application Policy 
+Acceleration Policy 
+HTTP Protection Policy 
+Auto-redirection to HTTPS 
+HTTP Redirection Port 
+(1 - 65535) 
+SSL Offload License 
+Select or create##layer 4##layer 7##TCP policy 
+(1 - xxx SSL offload policies) 
+SSL Encryption Policy 
+(1 - xxx SSL encryption policies) 
+Associated Virtual Services 
+(0 - xxx iPro) 
+Database Admin: 
+Account: 
+(1 - 48 characters) 
+Password: 
+(0 - 128 characters) 
+(Up to 7 accounts) 
+Advanced 
+MySQL Connection Pool 
+Pool Size 
+(1 - 64000) 
+Age 
+(60 - 86400) 
+Scheduling 
+Source IP Netmask 
+(Netmask or bit, e.g,. 255.255.255.0, 24) 
+MySQL Server 
+Protocol Version 
+(1 - 255) 
+Server Version 
+(1 - 63 characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Character Set: 
+(0 - 65535) 
+Server Weight 
+(0 - 65535) 
+LB Method 
+Service 
+IP Group 
+Read-Write Separation [Help] 
+##/ xxx users 
+Read: 
+Write: 
+Associated Virtual Services 
+Help 
+Associated Virtual Services 
+虚拟服务关联组：发布相同IP或使用相同节点池的多个虚拟服务一定在同一个关联组中，该图展示这些虚拟服务之间的关联关系。(removed-smn) 
+关联应用组：选择该虚拟服务关联组所属的应用组。(removed-smn) 应用组在哪台设备上生效，该关联组包含的虚拟服务就在哪台设备上生效。(removed-smn) 
+虚拟服务关联组温馨提示:该图表示本虚拟服务关联组中，虚拟服务转换规则之间的关联关系。(removed-smn) 
+Floating IP Address 
+Virtual Services 
+Associated Node Pool (Server) 
+No virtual service has ever been created. 
+Virtual Service Unit 
+查询类型 (removed-smn) 
+Specified 
+(0 - 255) 
+Domain Name 
+(1 - 255 characters, containing letters, number, dot and hyphen only) 
+Advanced Search 
+Requested Row: 
+HTTP Header: 
+(1 - xxx characters, 
+containing numbers, letters, hyphen and underscores only) 
+Condition 
+is 
+contains 
+Regular expression 
+Wildcard 
+(1 - xxx characters) 
+Reverse Definition 
+End Connection 
+Connection Termination Method 
+Try next one 
+Drop 
+Drop -> 
+Try next one Send FIN Send RST 
+Try next one Send FIN Send RST Drop 
+Try next one Redirect to specified page Send FIN Send RST 
+Try next one Drop 
+Help for adding new VRRP group 
+VRRP Groups 
+名称：一个应用组的名称，用于标识一个应用组。(removed-smn) 
+Destination NAT 
+Floating IP Address 
+会话同步：若开启，该应用组的生效设备会同步会话到备份设备之上，如果生效设备故障，备份设备成为生效设备，可保证原有连接不中断。(removed-smn) 
+默认设备：若选择一个默认设备，这个默认设备具有最高的优先级被选举为生效设备。(removed-smn) 
+抢占模式：若开启了抢占模式，该应用组的默认设备如果健康，会主动成为生效设备，而使原生效设备成为应用组的备份设备。(removed-smn) 
+故障检测：选择与应用组关联的链路，如果一台设备的关联链路故障，若该设备是生效设备，则发生故障切换，应用组会切换到其他设备上，若该设备不是生效设备，则应用组生效设备故障时，该设备不具有成为应用组生效设备的能力。(removed-smn) 
+虚拟MAC：若为应用组在某条链路上配置一个虚拟MAC地址，应用组在该链路上的所有IP地址，都用这个伪装的MAC与外部通讯，如果发生了故障切换，新的生效设备能够继续使用这个伪装MAC与外部通讯。(removed-smn) 
+权重：若应用组在某台设备上生效，则该设备的负载会根据应用组的权重相应增加，当应用组在集群中切换时，会根据设备的负载状况选择设备。(removed-smn) 
+应用组关联信息：该应用组包含的一组配置，包括浮动IP、虚拟服务、NAT规则。(removed-smn) 这些配置使该应用组具有发布服务的能力。(removed-smn) 
+Add New VRRP Group 
+Session Sync 
+Default 
+None 
+Preferred Routers 
+Selected 
+Available 
+(Up to 5 monitors) 
+Tips: Ping and SNMP cannot watch the node on a same IP address but different ports. 
+Preemption 
+Link State Detection 
+Link 
+-- Select -- 
+Priority 
+(Integer between 1 and 100) 
+Virtual MAC Address 
+(IPv4 MAC address) 
+Associated Objects 
+Move to Left 
+Move to Right 
+Edit VRRP Group 
+Auto Refresh: 5 seconds 
+Backup Router 
+Session Sync Status 
+Switch 
+Loading, please wait... 
+## entries 
+Not synced yet 
+Sync... 
+Sync completed 
+Switch to Standby 
+Are you to delete the selected entry(ies)? 
+Delete Anyway 
+Failed to send request to server. Please reload the page to try again. 
+Help 
+Cluster Maintenance 
+集群状态：包括禁用、加入集群、创建集群。(removed-smn) 若想组建一个集群，先进入第一台设备，选择创建集群，然后在成员管理页面，将其他设备加入到集群中，其他各台设备选择加入集群。(removed-smn) 
+设备管理IP：设备管理口上的IP地址，用于集群控制连接的建立，和设备间的心跳监视。(removed-smn) 
+HA网口：设备的一个物理接口(可使用聚合口），并需配置IP地址，用于数据连接的建立，和设备间的心跳监视。(removed-smn) 
+密钥：用于集群认证和传输加密，所有设备必须有相同的密钥，才能组建集群。(removed-smn) 
+集群名称：集群的名称，用于标识一个集群。(removed-smn) 
+集群管理IP：用于管理整个集群的IP地址，用该IP可登录到集群管理界面。(removed-smn) 
+心跳超时时间：集群中的设备，如果在超时时间内收不到其他设备的心跳，就认为其他设备已离线，然后接替该设备的工作。(removed-smn) 
+心跳间隔时间：集群中的设备每隔一个间隔时间，广播心跳包给集群中的其他设备。(removed-smn) 
+集群远程维护：(removed-smn) 
+启用集群远程维护时，用户可以通过远程维护IP地址登录集群控制台或各台设备的控制台进行管理。(removed-smn) 
+通信介质检测：(removed-smn) 
+启用通信介质检测,可以防止集群内各节点间的心跳出现故障时而带来的灾害（当启用通信介质检测时，如若修改了业务口，需要同步修改业务口引用的物理口）。(removed-smn) 
+Cluster Settings 
+Cluster Name 
+Cluster IP Address 
+(Enter a valid IPv4 address) 
+Netmask 
+(Enter a valid IPv4 netmask) 
+HA Interface 
+Key 
+Heartbeat Timeout 
+(100 - 10000 ms) 
+Heartbeat Interval 
+Remote Tech Support 
+Maintenance IP 
+(Specify floating IPv4 address on the network interface) 
+Use public IP address 
+Public IP Address 
+(Specify public IPv4 address) 
+Mgt Interface Port 
+(Enter the management interface port) 
+Report Center Port 
+(Enter the report center port) 
+Communication Media Detection 
+Network Interface 
+-- Select -- 
+Next 
+集群管理IP：用于管理整个集群的IP地址，用该IP可登陆到集群管理界面。(removed-smn) 
+会话同步：若开启，集群中的设备会相互同步会话。(removed-smn) 若有设备发生故障，可保证原有连接不中断。(removed-smn) 
+Status 
+Join to cluster 
+Creat new cluster 
+Log in Cluster Controller 
+Action 
+Passive 
+Proactive 
+(Enter an valid IPv4 address that resides on the same network segment as the mgt interface IP) 
+About This ADC 
+Mgt Interface IP 
+IP Address 
+(Enter a valid IP address) 
+Netmask 
+(Enter a valid netmask) 
+(8 - 64 digits) 
+Retype Key 
+(Retype the above key) 
+(Specify IPv4 address for WAN port) 
+This system will be restored to factory default and external authentication disabled. Would you like to proceed? 
+Network detection 
+HA Mode 
+Active-standby mode: In this mode, one of the two units, the active unit, deliver application, while the standby unit does not work until it takes over the application delivery service when the active unit fails. 
+High-available Cluster: More than one AD units form a cluster, and deliver different services at the same time, monitoring health of one another. In case of failure of any unit, the applications being delivered from that failed unit will be taken over by another clustered unit. 
+High-performance Cluster: More than one AD units form a cluster, high in performance. 
+Select HA Mode 
+Active-standby 
+High-availability cluster 
+High-performance cluster 
+There are two units involved. One is Active and provides HA service, while the other is Standby and not provides HA service. When active unit fails, the standby unit changes to Active and takes over the service. 
+In this mode, all of the features of an ADC are available. 
+There are up to 16 ADC units involved. A service is running on one of the units, the Active unit, a second unit will be elected to work as Standby unit. When the Active unit fails, the standby unit changes to Active and takes over the service. However, services on different ADC units can run concurrently, as backups for one another when necessary. 
+There are up to 8 ADC units involved. With link aggregation configured on the switch connected to the HA interface, data of a service will be assigned to each unit in the cluster to handle, dramatically improving performance. When there is any unit exits the cluster or any new unit is joined to the cluster, traffic will be fairly assigned among the clustered united to ensure business continuity. 
+This mode is chosen for server load balancing, therefore, link load, IPv6, SSL connection multiplexing and dynamically routing are not supported. 
+Log In to Cluster Controller 
+(Specify floating IPv4 address on WAN interface) 
+HA IP address: an address used to set up connection and monitor heartbeats among clustered member. 
+Add Member ADC 
+(Enter an valid IP address) 
+Device Basics 
+HA Address 
+Unknown 
+Edit Member ADC 
+Add Again 
+Tips 
+Members 
+Name: name of an ADC that can distinguish it from others. 
+Change Cluster Controller 
+Mgt Interface IP 
+Role 
+Health Status 
+Mgt Status 
+Redirect 
+Service Status 
+No data is available. No cluster has ever been created. 
+Active controller 
+Standby controller 
+Member 
+Service is invalid 
+Service is initializing 
+Service is normal 
+Service session is being backed up 
+Initialize 
+Online 
+Alarm 
+Fault 
+Network failure 
+Silent 
+Offline 
+Fault 
+Adding... 
+Failed to add entry. 
+Deleting... 
+Failed to delete entry. 
+Unknown 
+Please visit the management IP address and view service status. 
+Log In 
+(There are invalid link[ 
+(There are invalid node[ 
+(Mgt interface IP is invalid) 
+(HA address is invalid) 
+(No cause) 
+(Unknown cause) 
+(Syncing data due to configuration inconsistency) 
+(Number of network interface is not consistent with that in cluster) 
+(License authorization is no consistent with that on cluster controller) 
+(Received heartbeat from ADC of higher version) 
+(Basic license has not been activated) 
+(Disk fault exists) 
+(Communication media fault exists) 
+(Connection timed out) 
+(Number of members has reached the maximum) 
+(Gateway ID already exists) 
+(Anomaly exists) 
+(HA interface type is inconsistent) 
+(Number of NICs is inconsistent) 
+(License check failed) 
+(Key check failed) 
+(Mgt interface IP is not on a network segment same with other cluster members) 
+(HA address is not on a network segment same with other cluster members) 
+(Hardware platform is not consistent with others cluster members. Upgrade is required) 
+(Software version is not consistent with other cluster members. Upgrade is required) 
+(HA interface is not consistent other cluster members) 
+(HA IP address is conflicting) 
+(HA mode is inconsistent) 
+The IP address already exists. 
+1 - xxx characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+IP Addresses 
+(Up to 8 addresses) 
+Communication Port 
+(1 - 65535) 
+IP address is invalid. 
+col_html = ""+" online "+"" 
+col_html = ""+" offline "+"" 
+Verdana 
+Access Count 
+No data available 
+Server error 
+text:  result.data.series.length ? '’ : 'No data available', 
+No data available##Please configure data center first. 
+Up to ## 
+{series.name} CPU usage {point.y:,.0f}% 
+Show Less 
+Show More 
+Percent 
+1 minutes 
+10 minutes 
+1 hours 
+Loading... 
+No data available 
+Unit ( 
+Thousand 
+Million 
+Billion 
+Normal##Link fault##Authentication failure##Detection timeout##Detection packet outdated##Server is off##No node available##Unknown error 
+Overall Health 
+xx Data Center 
+All Data Centers 
+Local Data Center 
+Data centers are operating properly. 
+## issues to be fixed: 
+Data center error occurred. Please try again later. 
+Network connection error occurred. Please try again. 
+None is detected. Please check data center settings. 
+None is detected. Please check data center settings. 
+0 more allowed (max allowed: 8) 
+Auto Refresh: 1 second 
+Period: 
+Last 60 minutes 
+Last 24 hours 
+Last 7 days 
+Overall Health of All Data Centers 
+Local Data Center 
+Access Distribution 
+Connections to Data Center 
+Concurrent 
+New 
+Total Throughput 
+Data Center (Selected/All) 
+CPU Usage 
+Data Center 
+Virtual Service (Selected/All) 
+Virtual Service 
+Delay 
+(1 - 86400 seconds) 
+Switchover Delay 
+SRV records (server resource records, for logging what services a server can offer) 
+PTR records (pointer records, for reverse lookup zone in DNS) 
+SOA records (resource records indicate which DNS is the best source of information for the specified domain) 
+A records (records specifying IPv4 addresses for specific domain names) 
+Domain Name 
+A Records 
+(Enter a valid IPv4 address) (TTL is between 0 and 86400) 
+(Up to 7 A records) 
+Reverse DNS 
+@Data/ 
+(IPv4 address) 
+PTR Records 
+Domain Name: 
+(Domain name should contain 1 to 255 characters. Wildcards are not supported) 
+(0 - 86400. 0 means cache is disabled) 
+(Up to 7 domain names) 
+Source Host 
+(Host address should contain 1 to 255 characters. Wildcards are not supported) 
+Email 
+(Enter email recipient address. Use dot to replace the symbol @) 
+No. 
+(It should be a positive integer) 
+Refresh Interval: 
+Retry Interval: 
+Expiration Date: 
+Min TTL 
+(0 - 86400. 0 means cache is disabled) 
+@Data/ 
+Domain Name 
+Settings 
+SRV Records 
+Host 
+(Host name can contain letters, digits, dot and hyphen only) 
+Port: 
+(0 - 65535) 
+Priority: 
+(0 - 100) 
+Weight: 
+(0 - 100) 
+Attributes 
+CPU usage 
+Outbound traffic 
+Inbound traffic 
+Concurrent connections to virtual service 
+New connections to virtual service 
+Healthy nodes 
+Virtual service outbound traffic 
+Virtual service inbound traffic 
+Associated Virtual Services 
+Selected 
+Available 
+##/4 
+Only when all the associated virtual services are online will the virtual IP address is valid. 
+Policy 
+Optimum resource scheduling 
+Scheduling Trigger 
+Object 
+Maximum 
+(1 - 100) 
+Weight 
+(1 - 100) 
+(1 - 86400 seconds) 
+Alternate Policy 
+Minimum 
+If no monitor is selected, link state will not take into account. 
+(1 - 100) 
+(Except CPU usage, other thresholds are between 1 and 4294967295) 
+monitors available 
+(Minimum is 1, not greater than the number of selected monitors) 
+This system has not been authorized. Please gain authorization as soon as possible. 
+Close 
+Online Activation 
+With activated product, you will gain 
+Activate License 
+Sign In 
+I agree with 
+Privacy Policy 
+Confirm 
+Mobile Phone Number 
+[Edit Profile] 
+Save 
+Sangfor Community 
+Ask questions, give advice, share and learn knowledge and experience on Sangfor products 
+#设置弹出DIV的拖动 (removed-smn) 
+Parameters: 
+obj is element used to receive mouse drag. 
+topdiv 被拖动的弹出div元素(removed-smn) 
+30-Day free remote technical support 
+Role: 
+Activation Status: 
+Super admin 
+System admin 
+Log Out 
+This operation is not supported, for your browser does not support AJAX objects. 
+Send Again 
+ seconds 
+Please enter the one-time password you received. 
+Please enter the one-time password you have received. 
+Please enter the mobile phone number. 
+Please enter the mobile phone number. 
+The server is not responding. Please try again later. 
+Server error exists. Please try again later. 
+The OTP was sent to your mobile phone. 
+Unable to connect to server. Please check the network connection. 
+Unable to get gateway ID. 
+Pop-up is blocked by the browser. Some dialog failed to pop up. 
+Activation failed. Error responding. 
+Change profile successfully 
+Activation succeeded. 
+Profile 
+Sending request  
+Unable to perform this operation on the device that is connected to the CMC. 
+Enter mobile number 
+Sign In 
+Please enter the one-time password you have received. 
+It is processing activate operation. Are you sure to exist? 
+Failed to get profile. 
+Mobile Number  
+Activate License 
+Unable to gain more services, for license has not been activated. 
+Change 
+Confirm 
+Operation failed for pop-up window is blocked by the web browser. Please change the settings in browser and try again 
+Timed out. Please log in again. 
+Activate 
+Verdana Regular##Verdana 
+Saving data, please wait... 
+Next 
+IP address is required, since proxy is enabled. 
+It is required and should be a valid IP address. Example: 192.168.1.1 
+Port is required, since proxy is enabled. 
+It is required and should be a valid port number (1~65535). Example: 1023 
+Username cannot contain any of the following special characters: `~!#$%^&*()+=\\|{}[];:\ 
+Username cannot exceed 20 characters 
+Password cannot exceed 40 characters 
+Username is required, since proxy is enabled and authentication is required. 
+Failed to save data. 
+Loading, please wait... 
+Unknown error 
+Parameter error 
+Server responding error 
+Connection was dropped or session timed out. Please log in again. 
+Proxy Options 
+Enable proxy server 
+IP Address: 
+Port: 
+Require authentication 
+Username: 
+Password: 
+Save 
+System Update 
+Update History 
+Version 
+Prepare Package 
+Back Up Settings 
+Upgrade 
+Finish and Restart 
+Current Version: 
+Checking for updates... 
+New updates are available. 
+Timed out. Please try again or 
+ use proxy server. 
+Check Again 
+Offline Update 
+Download failed. Please check the network connection, or 
+try again. 
+Download failed for available space is insufficient. Please clean up the disk and try again.     
+Your software upgrade license is invalid or has expired. Please contact customer services to renew the license.     
+Failed to download configuration. Please contact customer service. 
+Upgrade failed. 
+[Upgrade Details} 
+Your software is up to date. 
+Upgrade 
+Upload the update package onto this device. Do not close this page during the process. 
+Downloading files... 
+Pause 
+Continue 
+  Download has been canceled.     
+Start Download 
+ Download is completed.   
+Tips: If download is slow, log out (download continues anyway) or upload package from local PC. 
+1. Download update package from 
+here 
+2. Upload update package from local PC 
+Update Package: 
+Upload 
+Upgrade progress is not available due to browser restriction. You may use another browser or add the server certificate in to trusted side list and change the settings in this browser. 
+Enable Initialize and script ActiveX controls not marked as safe for scripting in Internet Options > Security > Custom level > ActiveX controls and plug-ins. If you are using Internet Explorer 8, also enable Include local directory path when uploading files to server in Internet Options > Security > Custom level. 
+Upload Again 
+Reading update package... 
+Version: 
+More 
+Backing up configuration... 
+Tips: Download the configuration backup before performing upgrade. 
+Backup is completed. 
+Download 
+Preparing for upgrade  
+[Update Logs] 
+Upgrade process takes a while. Please wait 
+The device will restart upon upgrade completion. 
+Upgrade succeeded     
+The device is about to restart in 
+Rebooting, please log in again later... 
+seconds... 
+Download Update Package 
+Update 
+Saving data, please wait... 
+What is New in this Version? 
+Update History 
+Update History 
+Version 
+Update Package 
+Upgrade Time 
+Result 
+Operation 
+of 
+Update Method 
+(Do not close this page during upload process) 
+Failed to check for updates. 
+Your software is up to date. 
+Failed to check the new features. 
+Pop-up is blocked by the browser. Some dialog failed to pop up. 
+The system is not responding. 
+Please log in again. 
+Download Update Package 
+Download Again 
+The update package is not found. 
+Failed to check for MD5 of update package. 
+Your software upgrade license is invalid or has expired. Please contact customer services to renew the license. 
+Please check for updates first. 
+Error opening the page. 
+Preparing for upgrade 
+Checking MD5 
+Backing up configuration 
+Performing upgrade 
+The copy operation succeeded. 
+Your web browser does not support access to clipboard. Please copy the contents in another way. 
+Download failed. 
+Failed to back up configurations. 
+Upgrade failed. 
+Another upgrade command is being executed. Please try again later 
+Another upgrade command is being executed by the Firmware Updater. Please try again later 
+Another upgrade command is being executed by the auto-update program. Please try again later. 
+Network connection error occurs. 
+The server is not responding. 
+Error decompressing file. 
+Checking for updates, please wait... 
+No update package is available. Please check for updates first. 
+Disk space is insufficient. 
+Error executing script. 
+Downloading update package. Please try again later. 
+No new update package is available. Please check for updates first. 
+No more details are available. 
+Are you sure to continue? 
+Device will restart upon upgrade completion. 
+Network will be reconnected during upgrade process. 
+Tips: 
+Sending request, please wait... 
+Saving data, please wait... 
+Please upload the update package. 
+File extension of update package must be ssu. 
+Please upload the update package. 
+ Succeeded 
+ Failed 
+ Rollback 
+Unable to roll back from this version. 
+Unable to roll back in such environment. 
+Rollback error occurred. 
+Rolling back, please wait... 
+After rollback from this version to the previous one, the current data and configuration will may be lost. 
+The device is required to restart if rollback is performed. 
+Network is required to be reconnected if rollback is performed. 
+Tips: 
+Rollback operation succeeded. 
+Rollback operation succeeded. This system is about to restart. Please log in again later. 
+ 
+Download paused 
+You will cancel downloading. Would you like to proceed? 
+The update package has not uploaded yet. Please try again later. 
+Unable to install package on this unit. 
+Unable to install the update package on this unit. <br>Please contact custom services. 
+This operation is not allowed. 
+You will delete the uploaded package. Would you like to proceed? 
+To some extent, you are taking risk to perform upgrade operation. Please make sure the current configuration has been downloaded. 
+Upload timed out. 
+The update package is invalid. 
+MD5 of the update package is incorrect. 
+Signature in the update package is not correct. 
+The update package is invalid. 
+Error downloading file from server. 
+Failed to check for updates. 
+System file is defaced. 
+Likely because the outgoing interface requires authentication. Please check the settings and try again 
+View 
+Firmware Updater 
+Web Console 
+Failed to upload the update package. 
+This field is required. 
+Are you sure to close this? 
+Sending... 
+Name should not contain any of the following characters: `~!#$%^&*()+=\\|{};:\ 
+Name cannot exceed 95 characters. 
+return (regx.test(value)?"":"Please enter a valid mobile phone number. "); 
+Organization name should not contain any of the following characters: `~!#$%^&*+=\\|{};:\ 
+Organization name cannot exceed 95 characters. 
+Referee should not contain any of the following characters: `~!#$%^&*()+=\\|{};:\ 
+Referee cannot exceed 95 characters. 
+return (regx.test(value)?"":"Please enter a valid mobile phone number."); 
+Please modify system resource settings, or else some functions will not be available. 
+Please check interface and DNS settings or 
+html = '’ + text + (retry?retryHtml:"") +’ Give up saving the changes. '; 
+Show Less 
+Show More 
+Failed to get passcode. 
+Send Again 
+Failed to apply for free trial. Please check network connection. 
+Failed to apply for free trial. Please check network connection. 
+Send Again ( 
+Connect to server successfully. 
+Error obtaining data from server. 
+Data Leak Protection 
+SQL Injection 
+Licensed Resources 
+最大并发授权数： 
+2000 
+Max Mobile Users: 
+5000 
+Lines: 
+10 
+User Name: 
+Tips: 
+To try more functions, contact us at 400-888-8888. 
+Close 
+Apply Again 
+Failed to apply for free trial. 
+Mobile Number: 
+Send SMS OTP 
+Passcode 
+Organization: 
+Referee: 
+Mobile Number: 
+Once the request is approved, you can try this product for free for xxx days 
+Cancel 
+Apply Now 
+Congratulations! Your request for free trial is approved. 
+Expiration Date: 2016-12-13 
+Function Modules 
+APT Detection 
+Web App Protection 
+Anti-defacement 
+Realtime Vulnerability Scanner 
+Brute-Force attack 
+Antivirus 
+Save 
+Saving changes, please wait... 
+Online Authorization 
+Contact your supplier or call 400-806-6868 for authorization code and license key. 
+Authorization Code: 
+Tips 
+1. Online authorization requires Internet connection. 
+2. The product must be connected to the Internet always after being authorized online, otherwise use of relevant functionality will become restrictive. 
+3. The authorization code and license key can only be used on one product. Before using them on another product, you may revoke this authorization first. 
+Licensing succeeded 
+Licensing failed 
+The new authorization code and license key will overwrite the current code and key respectively. Are you sure to proceed? 
+This operation requires the current authorization be revoked first and the Internet be connected. Are you sure to proceed and interrupt the business? 
+Tips on Authorization via Licensing Server 
+How to Gain Authorization? 
+Contact a Sangfor salesperson or partner to get a license key and USB key (or authorization code). 
+If you use USB key and license key, insert USB key and provide the license key on the licensing server GUI. 
+If you use authorization code and license key, provide the authorization code and license key on the licensing server GUI. 
+Re-Authorize 
+Operation succeeded. 
+Operation failed. 
+Internet connection is required. Once the authorization is revoked, the current licensed resources will become unavailable and business may be interrupted. Are you sure to revoke the authorization? 
+I am sure to perform deletion operation 
+Operation succeeded. 
+Authorization is required. Choose an authorization method: 
+Online Authorization 
+Using Licensing Server 
+Free Trial 
+, etc., 
+Bit 
+The current password is too weak. Please change the password now. 
+if (ssd_check() && "" == "Function Module Description") 
+if ("" == "Function Module Description") 
+Verifying, please wait... 
+(0 - 255, e.g., 1,1-20) 
+Priority 
+(1 - 100, SN of this entry. If the value is greater than the maximum number of entries, it becomes the last entry by default) 
+ in all 
+Default Priority 
+if ($("#movePos").val() == "" || $("#movePos").val() == "Default priority, the last one") 
+1 - 63 characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Database Node Pool Switch Script 
+Description 
+1 - 99 characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Script Contents 
+Script Source 
+Custom 
+File on local PC 
+Script File 
+Scheduling policy script of virtual service 
+Import 
+Copy 
+Execute Script 
+Import Scheduling Policy Script 
+File 
+Example File 
+Download 
+(0 - 255) 
+Custom Types 
+Common Types 
+Echo Reply (Type 0) 
+Destination Unreachable (Type 3) 
+Source Quench (Type 4) 
+Redirection (Type 5) 
+Echo (Type 8) 
+Router Advertisement (Type 9) 
+Router Solicitation (Type 10) 
+Time Exceeded (Type 11) 
+Parameter Problem (Type 12) 
+Timestamp (Type 13) 
+Timestamp Reply (Type 14) 
+Information Request (Type 15) 
+Information Reply (Type 16) 
+Address Mask Request (Type 17) 
+Address Mask Reply (Type 18) 
+Incoming Interface 
+Custom ( 
+   Custom ( 
+ICMP Type: 
+Any 
+(Integer between 0 and 255, code for types that are not common) 
+Incoming Interface 
+Up to ## entries 
+Interface received request 
+Start IP: 
+-- Select -- MANAGE(eth0) Interface received request 
+(Start IP should not be greater than end IP. If there is only one IP address, keep start and end IP the same) 
+End IP: 
+(Up to 2048 IP addresses) 
+Interface received request -> 
+col_html = ""+"Interface received request"+""; 
+Proxy IP Address 
+IPv6 Listening Address 
+(Enter an IPv6 address. If it is not specified, enter one of the DNS server IP addresses in Local DNS) 
+DNS64 IPv6 Prefix 
+(Common DNS64 IPv6 prefix example: 64:FF9B) 
+Caching 
+Concurrent Query 
+Query Destinations 
+Specified server 
+Specified domain name 
+All DNS requests 
+By selecting all DNS requests, you will have intelligent DNS and mapping on port 53 replaced by the DNS proxy) 
+(Subnet can be IPv4 and IPv6 subnet) 
+(Enter netmask or prefix. Example: 255.255.255.0, 24) 
+(Up to 16 entries) 
+Monitored Domain Names 
+(4 - 255 characters) 
+(Up to 8 entries) 
+IPv4 Listening Address 
+(Enter an IPv4 address. If it is not specified, enter one of the DNS server IP addresses in Local DNS) 
+Per-Dst-IP Packet Loss Threshold 
+packets/second 
+Per-Src-IP Packet Loss Threshold 
+AAAA records (records specifying IPv6 addresses for specific domain names) 
+AAAA Records 
+(Enter a valid IPv4 address) (TTL is between 0 and 86400) 
+(Up to xxx AAAA records) 
+Same with dst port range if not specified 
+(1 - 65535, examples: 1, 1-20. 0 means any port. Separator is comma 
+Any IPv4 address 
+Any IPv6 address 
+The mapped destination IP address is invalid. 
+Destination IP Range 
+Destination Port Range 
+Mapped IP Range 
+Mapped Dst Port 
+Not negotiated 
+(Up to xxx static and floating IP addresses) 
+Floating IP Addresses 
+Start IP 
+End IP 
+(Enter a valid IP and netmask or prefix) 
+1 - xxx characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Health Check 
+Cable Plug Status Detection 
+ARP 
+Monitored IP Address 
+(Enter a valid IPv4 address) 
+Edit 
+-- Select -- 
+Type 
+Common IP Addresses 
+Up to xxx static and common IP addresses 
+Up to xxx static and floating IP addresses 
+The active unit has been configured ## static IP addresses 
+Common##Floating 
+##/, among which ## are static and ## ## are floating 
+IP Address 
+Static IP Addresses 
+Others 
+Netmask/Prefix 
+(Up to xxx static and floating IP addresses) -> 
+IPv6 Gateway 
+(Enter valid IPv6 address) 
+Public IP Address 
+(Optional. If specified, number of such IP addresses should be the same with that of floating IP addresses) 
+(Number of public IP addresses should be the same with that of floating IP addresses) 
+Line Bandwidth 
+Outbound Bandwidth 
+Outbound Bandwidth Ratio 
+(1Kbps - 40Gbps) 
+(1 - 100) 
+Inbound Bandwidth 
+Inbound Bandwidth Ratio 
+Monitor Status 
+Gateway ARP Spoofing Detection 
+Active Monitor 
+Monitored Hosts 
+(Enter IP addresses, or DNS domain name or host name of specified IP address type) 
+(Up to 512 entries) 
+Optional. If specified, number of such IP addresses should be the same with that of common IP addresses. 
+Number of public IP addresses should be the same with that of common IP addresses. 
+Optional. If specified, number of such IP addresses should be the same with that of floating IP addresses. 
+Number of public IP addresses should be the same with that of floating IP addresses. 
+ 
+/ xxx entries 
+Download ISP Address Example File 
+OSPF Status 
+Link State 
+Disable 
+(Up to 16 entries) 
+##/ entries 
+(1 - xxx. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Address Type 
+IP address 
+Subnet 
+IP Address: 
+Start IP: 
+End IP: 
+Address: 
+Netmask/Prefix: 
+(Netmask or prefix) 
+Select All 
+IP range 
+Operation 
+Privacy Policy 
+SANGFOR takes the security of USER’s personal information very seriously. Before using products or service provided by SANGFOR, please carefully read and thoroughly understand this privacy policy (hereinafter the Policy). By using the products, you(hereinafter You or USER) agree to be bounded by the terms in this Policy. 
+This Policy is about the collection and use of personal information and is applicable to all the products and services provided by SANGFOR. 
+1. Before using the product and services provided by SANGFOR, You may provision information, including but not limited to your name, phone number, location, etc., which, if not accurate, complete or up to date, respective services may not be available. Meanwhile, SANGFOR may collect, use or provide third party certain information rather than USER’s private information, such as use of the product and user habits, to improve SANGFOR products, services and user experience. 
+2. Generally, You can view and modify information You submitted, but not include the registration information and other verification credential. 
+P_LINE5 : "3. SANGFOR has always been doing her best to protect USER’s personal information and shall continue to take reasonable measures to protect them. Without USER’s permission, SANGFOR shall not disclose any personal information to any third party, but it is the USER’s sole responsibility if personal information is disclosed in the following situations: \ 
+(1) PERSONAL INFORMATION IS REQUIRED BY LAWS, REGULATIONS, OR AUTHORITIES. 
+(2) IINFORMATION DESCLOSURE IS CAUSED BY USER SHARING PASSWORD OR ACCOUNT WITH OTHERS. 
+(3) PERSONAL INFORMATION IS PROVIDED TO THIRD PARTIES BY USER. 
+(4) SANGFOR HAS REACHED AGREEMENT WITH USER AND A THIRD PARTY TO SHARE THE PERSONAL INFORMATION, AND PROVIDES PERSONAL INFORMATION TO THAT PARTY. 
+(5) FORCE MAJEURE SUCH AS HACKER ATTACK, VIRUS, AND THE LIKE. 
+4. SANGFOR recommends You to pay special attention to the terms under the Policy and read it carefully and take the risks into consideration. 
+The power of interpretation and amendment of the Policy shall be vested in SANGFOR. 
+Page is redirected 
+Stability statistics were generated. Generating other statistics.... 
+Intelligent DNS statistics were generated. Generating other statistics.... 
+Cluster statistics were generated. You may download the document later. 
+To enable automatic report generation and subscription. 
+Tips: To generate report immediately, enable the corresponding feature first. 
+Generate report as PDF document. 
+Node Statistics 
+Type 
+Total Traffic 
+Stability 
+MySQL Read/Write 
+Node Pool 
+Virtual Service 
+Policy-Based Routing 
+Business decision analysis 
+Analysis type 
+Access time 
+Region 
+User category 
+User count 
+Intelligent DNS Statistics 
+Report Center 
+Virtual IP Address Pool 
+LDNS 
+Source Distribution 
+Suspicious Request 
+DNS Mapping 
+Cluster 
+Bandwidth usage 
+With External Account 
+Login With External Account 
+Root CA Certificate 
+Download 
+Layer 7 Advanced Options 
+Gateway 
+(It should reside on a same network segment with the above IP address) 
+Log matching 
+(Enter regular expression) 
+Send Test Email 
+Network attack 
+CPU usage exceeds 
+Connections to system exceeds 
+ 
+CRL update failure 
+Memory usage exceeds 
+Connections to virtual service exceeds 
+Virtual service failure 
+Disk usage exceeds 
+Time 
+Description 
+Restore from file 
+A maximum of ## backups can be created. 
+Restoring Defaults 
+    Manual backup 
+Manual backup /10 
+The system will be restored to factory defaults. Are you sure to proceed? 
+Path 
+Restore 
+File Path 
+Enable switch port on standby unit 
+Cable plug status detection 
+Service process detection 
+-- Service -- 
+Node monitor 
+DNS proxy 
+Layer 7 service 
+[Service process detection] 
+Failover with Conditions 
+Failover without Conditions 
+This is the active unit 
+Unable to get the tree of modules. 
+##/16 entries 
+0 - 127 characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+Restrictions 
+ADAPI Access 
+Login Restriction 
+Allowed Login Addresses 
+(Enter IP address and netmask of the same IP version with the existing IP addresses) 
+(Enter netmask or prefix. Example: 255.255.255.0, 24 or ffff:ffff) 
+Permissions 
+Click to expand the sub-items. 
+Role Name 
+Retype Password 
+(1 - 63 characters, containing letters, numbers and underscores only) 
+Cancel 
+Change Password 
+Role 
+-- Select -- 
+New Password 
+Local password 
+External 
+Password 
+Current Password 
+(8 - 49 characters, containing letters, numbers but not username) 
+(8 - 49 characters) 
+special characters (any two of number, letters and symbols) 
+weak password (not containing username nor be too simple) 
+View New Connections 
+View CPU Usage 
+View Memory Usage 
+View ip6tables Rules 
+View Virtual Service Statistics 
+View Node Pool Statistics 
+View Node Statistics 
+View Interface Statistics 
+View CPUs and Cores Per CPU 
+View CPU Model 
+View Acceleration Card Model 
+View Interface and Number of Virtual Services, Node Pools and Nodes 
+View Throughput 
+View HTTP Request Rate 
+Connection ESTABLISHED Status Statistics 
+Advanced Options 
+ALG Traversal 
+Sangfor Technologies Inc ADC GUI [v6.6] 
+© 2008-2017 Sangfor Technologies Inc. All Rights Reserved. 
+Trim(string): used to remove space before and after the string. 
+View Device Name 
+Session timed out. 
+View License Information 
+View Connection Tracking Information 
+session [vsname virtual_service_name|service type] [NAT type] [protocol] [address] 
+vsname virtual_service_name: Virtual Service Name 
+Service Type: L4, L7, L0 (L4 is Layer 4; L7 is Layer 7 and L0 means non-virtual service) 
+NAT Type: nat44, nat46, nat64, nat66 
+Protocol: tcp, udp, icmp, icmpv6, other 
+Address: 
+View information of the smart card 
+gm_ssl_ctl -d is to display information of this unit. 
+-r length is to generate a random number, while length indicate length of the random number, between 1 and 4096. 
+View what status this clustered unit is in. 
+Back up, delete, view and restore configurations. 
+(Integer between 1 and 255) 
+Data Type 
+LDAP 
+Server IP Address 
+Enter a valid IPv4 address. 
+Port 
+1 - 65535 
+SSL Access 
+Root CA Certificate 
+Client Certificate 
+SSL > Root CA Certificate 
+-- Client Certificate -- 
+SSL > SSL Certificate 
+Directory Tree 
+Specify AD domain server file location in authentication database, which contains 1 to 256 characters. 
+Search As 
+Anonymous user 
+Login user 
+Specified user 
+LDAP 
+1- 128 
+Up to 128 characters 
+Username Extension 
+1 - 256 
+RADIUS Server 
+Enter a valid IPv4 address. 
+Enter a valid port. 
+Enter a valid authentication attribute ID. 
+Shared Secret 
+Shared secret for RADIUS authentication, containing up to 128 characters. 
+Authentication attribute ID 
+-- Local Authentication -- 
+(IPv4 address only) 
+FTP Port 
+(Integer between 1 and 65535) 
+0 - xxx characters. It should not contain any of the following special characters: & | " ' , : % < > / \ ) 
+(0 - 49 characters) 
+(1 - xxx characters, beginning with /) 
+CDMA modem 
+Node failure 
+Alarm Periodic 
+Every 
+minute(s) 
+hour(s) 
+(1 minute - 30 days) 
+HA failure 
+License Key 
+(Enter a 16-digit license key) 
+License Status 
+HTTP Contents Caching 
+Intelligent DNS License 
+Multi-Tenant License 
+Gateway ID 
+Virtual ADCs 
+Software Upgrade 
+Function Modules 
+Authorization Method 
+Authorized User: 
+Authorization code 
+Expiration Date: 
+Change Authorization 
+Revoke Authorization 
+Authorization via Licensing Server 
+Phone Service Expiration 
+Authorization via Licensing Server 
+Activate 
+Hardware Warranty 
+Basic License 
+License Basics##SSL Offload##TCP One-way Acceleration##HTTP Contents Caching##Intelligent DNS##Software Upgrade##Multi-Tenant License##App Analytics##Security Analytics 
+Services will restart and business may be interrupted if you edit the license key. Are you sure to continue? 
+Max Links 
+SSL Offload License 
+TCP One-Way Acceleration 
+Upgrading...##Upgrade 
+Upgrading...##Rollback 
+This will roll back the current system to the previous version. Would you like to proceed? 
+URL Address of Update Package 
+(Up to 512 bytes. It can be URL address of Web or FTP server for other purpose rather than authentication) 
+Latest Upgrade History 
+Rollback Details 
+Roll Back to the Current Package 
+Latest Rollback History 
+Alternate NPT Server 
+Sync Now 
+Sync Interval 
+(1 - 604800 seconds. Default is 86400 seconds) 
+(Clear) 
+Download Logs 
+Export Logs 
+Please wait... 
+Please wait... 
+Compressing... 
+Generating... 
+Licensing 
+(SSH port is 22345) 
+If username begins with number or capital letter, login through CLI is not allowed. Would you like to save the settings? 
+As the username begins with number or capital letter, change the password as well after changing the username, to allow login through CLI. Would you like to save the settings? 
+As the username is reserved, change the password as well after changing the username, to allow login through CLI. Would you like to save the settings? 
+This administrator account does not support password change. 
+Switch to Multi-Tenant Mode 
+You are switching it to Multi-Tenant Mode. Would you like to proceed? 
+Switch Mode (current mode Single-Tenant) 
+str+=""+dev_name+" cluster controller"; 
+Str+=""+dev_name+" ADC node "; 
+Report Center 
+  Unauthorized user! 
+if (! && "" != "Default user") 
+Authorized User: 
+View Details 
+Logging Options 
+Client-Side Throughput 
+Server-Side Throughput 
+Memory Usage 
+CPUs:    Cores//CPU: 
+Memory 
+Usage 
+Resource Usage 
+Last 24 hours 
+Last 7 days 
+Period 
+Connection Type 
+Connections 
+Client-Side Connections 
+Server-Side Connections 
+Server-Side New Connections 
+Server-Side Concurrent Connections 
+Client-Side New Connections 
+Client-Side Concurrent Connections 
+New Connections 
+Concurrent Connections 
+Uptime: 
+Uptime: ## day(s) ## hour(s) ## minute(s) 
+Log Servers 
+NAT Logs 
+Server 2 
+Encoding 
+Encoding 
+Cluster Controller Status 
+Cluster VRRP Group Status 
+View by ADC 
+View by VRRP Group 
+Status 
+Loading, please wait... 
+VRRP Group Status 
+Normal 
+Node 
+Error occurred) 
+Active 
+Standby 
+Connections 
+Role of This Device 
+VRRP Group Status 
+VRRP group status is null. 
+Outbound Throughput 
+Inbound Throughput 
+This virtual machine is associated with the default protection policy. Therefore, changing its associated protection policy will affect all other virtual services that have associated with the default protection policy. You may create a new protection policy, to have the that policy associate with this virtual service automatically. 
+Update 
+Add Policy 
+Edit Default Policy 
+Clear History 
+No attack has ever occurred. 
+Attacks 
+Date 
+Blocks 
+0  
+Are you sure to remove all data of virtual service ## from the database? 
+None 
+Top 10 of Today 
+JS injection prevention 
+302 redirection prevention 
+307 redirection prevention 
+Connection timed out 
+Request timed out 
+Attack Sources 
+Rate is too low 
+Block and give alert 
+The virtual service has been deleted. 
+Attack Sources 
+ of ## 
+Attack History 
+Page of ## 
+Entries Per Page: 
+No. 
+Time 
+Attack Source 
+Attack Type 
+Cause: 
+Update succeeded. 
+URL 
+Attempts 
+>> xxx more messages 
+Anti-DDoS Statistics 
+TCP Protocol Stack 
+UDP Protocol Stack 
+SSL Protocol Stack 
+TCP Scheduling 
+HTTP Proxy 
+HTTP Scheduling 
+HTTP Compression 
+HTTP Caching 
+HTTP Rewriting 
+Virtual Services 
+Kernel 
+Are you sure to clear all the data? 
+Period: Today 
+Clear Logs 
+Service 
+Details 
+Occurrences 
+Logs 
+Outbound Packets 
+Tips: To gain traffic statistics, select the corresponding item in the associated report template. 
+Concurrent Connections (in any status) 
+Concurrent Connections (established) 
+Max Connections 
+Total Connections 
+Total Requests 
+Request Rate 
+Inbound Bytes 
+Outbound Bytes 
+Inbound Packets 
+MySQL Read Speed 
+MySQL Write Speed 
+Node Pool 
+To gain traffic statistics, select the corresponding item in the associated report template. 
+Total Nodes 
+Busy Nodes 
+Offline/Disabled 
+Valid 
+Invalid 
+Outbound Error Packets 
+Interface 
+Inbound Dropped Packets 
+Outbound Dropped Packets 
+Inbound Error Packets 
+Available Links 
+Available Node Pools 
+Connection Multiplexing Rate 
+DNS server, DNS records, virtual IP address pool, DNS mapping,. LDNS, static proximity, and configuration backup and restoration. 
+High Availability 
+More than one application delivery controllers form a redundant cluster to improve stability and performance. 
+Main Features: 
+Active-Standby: Two units to achieve disaster failover. 
+High-available Cluster: 16 ADC units form a cluster. An application is delivered from all the units, which are backups for one another. 
+High-performance Cluster: More than one units are connected to one another to form a cluster and achieve server load balancing together via central management. 
+Business security analytics 
+Business security analytics are on layer 7 security vulnerabilities and signature database, to give alerts on potential threats, as well performance and resource usage analysis on WebLogic, Oracle, SQL Server databases. 
+Security Analytics and Application Analytics 
+System, Virtual Services, Intelligent DNS, Anti-DDoS, Cluster, Links, Nodes, Interfaces, DNS, virtual IP pool, Dynamic Routing, Logs, Debug Logs. 
+In Data Center, you can define communication among the ADC deployed in different data centers to enable data interaction among them, as well as the communication between the server load balancer in local data center and all other ADC to present the load of the entire data center. 
+Status, Data Centers and Local Server Load Balancer

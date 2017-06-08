@@ -1,0 +1,31 @@
+{
+  "name": "learn-nodejs-pro",
+  "version": "1.0.0",
+  "description": "nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenoo/learn-nodejs-pro.git"
+  },
+  "keywords": [
+    "nodejs",
+    "app"
+  ],
+  "author": "czt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kenoo/learn-nodejs-pro/issues"
+  },
+  "homepage": "https://github.com/Kenoo/learn-nodejs-pro#readme",
+  "dependencies": {
+    "eslint": "^3.12.1",
+    "espree": "^3.3.2"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0"
+  }
+}
